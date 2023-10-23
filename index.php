@@ -73,6 +73,36 @@ head($page); ?>
         </section>
         <!-- /COMPETENCES -->
 
+        <!-- SERVICES -->
+        <section id="service">
+            <!-- developpement -->
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <p class="title">FRONT SIDE</p>
+                        <p>Développeur</p>
+                    </div>
+                    <div class="backSide">
+                        <p class="title">BACK SIDE</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+            <!-- serveur -->
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <p class="title">FRONT SIDE</p>
+                        <p>Hover Me</p>
+                    </div>
+                    <div class="backSide">
+                        <p class="title">BACK SIDE</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /SERVICES -->
 
 
         <!-- </canvas> -->
