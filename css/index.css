@@ -90,6 +90,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: red;
+    width: 80%;
+    margin: auto;
 }
 
 #competence .group {
