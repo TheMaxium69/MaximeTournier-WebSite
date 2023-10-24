@@ -1,17 +1,24 @@
-/* #gradient
-{
-  width: 100%;
+body, html {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  padding: 0px;
-  margin: 0px;
-} */
+  width: 100%;
+  overflow: hidden;
+}
 
-
-#bg-wrap {
-  width: 100%; /* Ajustez la largeur selon vos besoins */
-  height: 100vh; /* Ajustez la hauteur selon vos besoins */
-  position: fixed; /* Assurez-vous que le div reste fixe par rapport à l'écran */
+.full-page-bg {
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: -1; /* Placez-le en arrière-plan pour qu'il ne chevauche pas le contenu */
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
