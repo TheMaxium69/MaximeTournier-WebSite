@@ -1,10 +1,10 @@
 /* HEADER */
 #header .card {
-    z-index: 1;
-    width: 800px;
-    height: 200px;
+    width: 70%;
     margin: auto;
-    background: rgba(255,255,255,.05);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     color: white;
     overflow: hidden;
@@ -25,13 +25,21 @@
     justify-content: center;
     text-align: center;
     height: 100%;
+    padding: 3%;
 }
 #header .card .contenu {
     display: flex;
+    height: 300px;
+}
+
+#header .card .contenu blockquote {
+    margin-top: 3%;
 }
 
 #header .card-picture {
     width: 30%;
+    background-image: url('../assets/profil.jpg');
+    background-size: cover;
 }
 
 #header .card-content .card-title {
