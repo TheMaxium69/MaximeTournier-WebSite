@@ -30,6 +30,39 @@ head($page); ?>
         </section>
         <!-- /HEADER -->
 
+
+        <!-- PROJETS -->
+        <section id="project">
+            <div class="content">
+                <article class="cardTyrolium">
+                    <!-- tyrolium -->
+                    <div class="card">
+                        <div class="bg"></div>
+                        <div class="blob"></div>
+                    </div>
+                </article>
+                <article class="cardOther">
+                    <!-- formateur -->
+                    <div class="card">
+                        <div class="bg"></div>
+                        <div class="blob"></div>
+                    </div>
+                    <!-- generation ium -->
+                    <div class="card">
+                        <div class="bg"></div>
+                        <div class="blob"></div>
+                    </div>
+                    <!-- autre -->
+                    <div class="card">
+                        <div class="bg"></div>
+                        <div class="blob"></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- /PROJETS -->
+
+
         <!-- COMPETENCES -->
         <section id="competence">
             <h2 class="h2 text-center">Les compétences qu'il a acquis</h2>
