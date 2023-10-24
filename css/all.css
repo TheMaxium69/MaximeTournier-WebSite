@@ -1,7 +1,17 @@
-#gradient
+/* #gradient
 {
   width: 100%;
   height: 100%;
   padding: 0px;
   margin: 0px;
+} */
+
+
+#bg-wrap {
+  width: 100%; /* Ajustez la largeur selon vos besoins */
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  position: fixed; /* Assurez-vous que le div reste fixe par rapport à l'écran */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Placez-le en arrière-plan pour qu'il ne chevauche pas le contenu */
 }
