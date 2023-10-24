@@ -5,6 +5,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 25px 25px 30px -12px rgb(32, 32, 32);
     border-radius: 8px;
     color: white;
     overflow: hidden;
@@ -29,7 +30,7 @@
 }
 #header .card .contenu {
     display: flex;
-    height: 300px;
+    height: 370px;
 }
 
 #header .card .contenu blockquote {
@@ -100,9 +101,8 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 20px;
-    width: 80%;
     margin: auto;
+    padding: 5%;
 }
 
 #competence .group {
@@ -114,7 +114,7 @@
 /* SERVICES */
 #service {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
     width: 60%;
     margin: auto;
     margin-top: 5%;

@@ -28,7 +28,7 @@ head($page); ?>
         <!-- /HEADER -->
 
         <!-- COMPETENCES -->
-        <!-- <section id="competence">
+        <section id="competence">
             <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
                 <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
                     <span class="text-3xl font-bold">Gestion Projet</span>
@@ -70,7 +70,21 @@ head($page); ?>
                     <p class="text-amber-300 font-thin">- Date : 2019 -</p>
                 </div>
             </div>
-        </section> -->
+
+            <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                    <span class="text-3xl font-bold">Formateur</span>
+                    <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                </div>
+            </div>
+
+            <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                    <span class="text-3xl font-bold">Formateur</span>
+                    <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                </div>
+            </div>
+        </section>
         <!-- /COMPETENCES -->
 
         <!-- SERVICES -->
