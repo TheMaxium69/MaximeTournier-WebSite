@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --dark-color: hsl(var(--hue), 100%, 9%);
   --light-color: hsl(var(--hue), 95%, 98%);
   --base: hsl(var(--hue), 95%, 50%);
@@ -35,4 +35,8 @@ body {
   height: 100%;
   pointer-events: none;
   z-index: -1;
+} */
+
+body {
+  background-color: #CFD5FF;
 }

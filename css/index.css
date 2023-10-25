@@ -1,12 +1,12 @@
 /* HEADER */
 #header .card {
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 25px 25px 30px -12px rgb(32, 32, 32);
-    border-radius: 8px;
+    border-radius: 40px;
     color: white;
     overflow: hidden;
     position: relative;

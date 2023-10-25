@@ -6,7 +6,7 @@ head($page); ?>
     <header> <?php navbar($page); ?> </header>
 
     <!-- BACKGROUND -->
-    <canvas class="full-page-bg orb-canvas"></canvas>
+    <!-- <canvas class="full-page-bg orb-canvas"></canvas> -->
     <!-- /BACKGROUND -->
   
   
@@ -129,7 +129,7 @@ head($page); ?>
         <!-- SERVICES -->
         <section id="service">
             <!-- developpement -->
-            <!-- <div class="myCard">
+            <div class="myCard">
                 <div class="innerCard">
                     <div class="frontSide">
                         <p class="title">FRONT SIDE</p>
@@ -140,9 +140,9 @@ head($page); ?>
                         <p>Leave Me</p>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <!-- serveur -->
-            <!-- <div class="myCard">
+            <div class="myCard">
                 <div class="innerCard">
                     <div class="frontSide">
                         <p class="title">FRONT SIDE</p>
@@ -154,14 +154,14 @@ head($page); ?>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- /SERVICES -->
 
         
 
     </main>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="js/script.js"></script>
+    <!-- <script type="module" src="js/script.js"></script> -->
 </body>
 
 </html>
