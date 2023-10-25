@@ -19,7 +19,7 @@ head($page); ?>
                     <div class="card-content">
                         <h1 class="h1">MAXIME TOURNIER</h1>
                         <h4 class="h4">Fondateur & PDG de Tyrolium</h4>
-                        <button class="btn-donate">
+                        <button type="button" class="btn-donate" onclick='window.location.href = "https://tyrolium.fr/"'>
                             Tyrolium.fr
                         </button>
                         <blockquote>
@@ -36,7 +36,7 @@ head($page); ?>
             
             <!-- COMPETENCES -->
             <section id="competence">
-                <h2 class="h2 text-center">Les compétences qu'il a acquis</h2>
+                <h2 class="h2 text-center">Les compétences acquissent</h2>
                 <div class="content">
                     <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
                         <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
@@ -103,14 +103,25 @@ head($page); ?>
                 <article class="cardTyrolium">
                     <!-- tyrolium -->
                     <div class="card">
-                        <div class="bg"></div>
+                        <div class="bg">
+                            <div class="logo">
+                            
+                            </div>
+                        </div>
                         <div class="blob"></div>
                     </div>
                 </article>
                 <article class="cardOther">
                     <!-- formateur -->
                     <div class="card">
-                        <div class="bg"></div>
+                        <div class="bg d-flex">
+                            <div class="picture">
+
+                            </div>
+                            <div class="text">
+                                <h3 class="h3">Formateur</h3>
+                            </div>
+                        </div>
                         <div class="blob"></div>
                     </div>
                     <!-- generation ium -->
@@ -142,7 +153,7 @@ head($page); ?>
                     <div class="backSide">
                         <p>Site e-commerce</p>
                         <p>Site vitrine</p>
-                        <p>Leave Me</p>
+                        <p>Application web</p>
                         <p>Leave Me</p>
                     </div>
                 </div>
@@ -161,6 +172,71 @@ head($page); ?>
             </div>
         </section>
         <!-- /SERVICES -->
+
+        <!-- Footer -->
+<footer id="footer">
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>MAXIME TOURNIER
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Pages
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">A propos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Expériences</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Compétences</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Histoire</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Services</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Décines Chapieu</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            mxmtournier@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i>06.11.11.26.69</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+</footer>
+<!-- Footer -->
 
         
 
