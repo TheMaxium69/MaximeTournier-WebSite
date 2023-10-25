@@ -24,10 +24,20 @@
 
 #navbar .content .items ul li {
     margin-inline: 20px;
-    text-decoration: none;
+    list-style: none;
     color: black;
     font-size: large;
     font-weight: 500;
+}
+
+#navbar .content .items ul li a {
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar .content .items ul li a:hover {
+  border-bottom: 4px solid rgb(71, 184, 255);
 }
 
 #navbar .btn-donate {
