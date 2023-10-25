@@ -93,7 +93,10 @@ head($page); ?>
                     <div class="card">
                         <div class="bg">
                             <div class="logo">
-                            
+                                <img src="https://tyrolium.fr/Contenu/Image/Tyrolium%20Site.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h3 class="h3">Tyrolium</h3>
                             </div>
                         </div>
                         <div class="blob"></div>
@@ -104,7 +107,7 @@ head($page); ?>
                     <div class="card">
                         <div class="bg d-flex">
                             <div class="picture">
-
+                                <img src="https://www.alterergos.fr/wp-content/uploads/2015/12/Plan-de-formation.jpg" alt="" srcset="">
                             </div>
                             <div class="text">
                                 <h3 class="h3">Formateur</h3>
@@ -114,12 +117,27 @@ head($page); ?>
                     </div>
                     <!-- generation ium -->
                     <div class="card">
-                        <div class="bg"></div>
+                        <div class="bg d-flex">
+                        <div class="picture">
+                            <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
+                        </div>
+                        <div class="text">
+                            <h3 class="h3">Génération IUM</h3>
+                        </div>
+                        </div>
                         <div class="blob"></div>
                     </div>
                     <!-- autre -->
                     <div class="card">
-                        <div class="bg"></div>
+                        <div class="bg d-flex">
+                        <div class="picture">
+                            <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
+ 
+                        </div>
+                        <div class="text">
+                            <h3 class="h3">Doublet</h3>
+                        </div>
+                        </div>
                         <div class="blob"></div>
                     </div>
                 </article>

@@ -173,12 +173,18 @@
     border-radius: 10px;
     overflow: hidden;
     outline: 2px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-#project .cardTyrolium  .bg .logo{
-  background-image: url('https://tyrolium.fr/Contenu/Image/Tyrolium%20Site.png');
-  height: 300px;
-  background-size: cover;
+#project .cardTyrolium .bg .logo {
+  width: 40%;
+  margin-top: 10%;
+}
+#project .cardTyrolium .bg .text {
+  flex-direction: column;
 }
   
 #project .cardTyrolium .blob {
@@ -247,9 +253,15 @@
 
 #project .cardOther  .bg .picture {
   width: 30%;
-  height: 80%;
-  background-image: url('https://www.atlasformation.fr/atlas/wp-content/uploads/2017/01/formation-de-formateur.jpg');
-  background-size: cover;
+  object-fit: cover;
+  height: 100%;
+}
+
+#project .cardOther  .bg .text{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
 #project .cardOther .blob {
