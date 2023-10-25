@@ -4,32 +4,98 @@ head($page); ?>
 
 <body>
     <header> <?php navbar($page); ?> </header>
-
+    
     <!-- BACKGROUND -->
-    <!-- <canvas class="full-page-bg orb-canvas"></canvas> -->
+    <canvas class="full-page-bg orb-canvas"></canvas>
     <!-- /BACKGROUND -->
-  
-  
+    
+    
     <main >
-
+        
         <!-- HEADER -->
         <section id="header">
             <div class="card">
                 <div class="contenu">
                     <div class="card-content">
-                        <p class="card-title">MAXIME TOURNIER</p>
+                        <h1 class="h1">MAXIME TOURNIER</h1>
+                        <h4 class="h4">Fondateur & PDG de Tyrolium</h4>
+                        <button class="btn-donate">
+                            Tyrolium.fr
+                        </button>
                         <blockquote>
                             <h5 class="h5">"La réussite en affaires est une combinaison de vision, de travail acharné et de persévérance."</h5>
                             <footer>— A.D PATEL</footer>
                         </blockquote>
-                        </div>
-                        <div class="card-picture">
+                    </div>
+                    <div class="card-picture">
                         </div>
                     </div>
                 </div>
-        </section>
-        <!-- /HEADER -->
-
+            </section>
+            <!-- /HEADER -->
+            
+            <!-- COMPETENCES -->
+            <section id="competence">
+                <h2 class="h2 text-center">Les compétences qu'il a acquis</h2>
+                <div class="content">
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Gestion Projet</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Management</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Formateur</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Gestion Projet</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Management</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Formateur</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Formateur</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+            
+                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                            <span class="text-3xl font-bold">Formateur</span>
+                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /COMPETENCES -->
 
         <!-- PROJETS -->
         <section id="project">
@@ -63,68 +129,6 @@ head($page); ?>
         <!-- /PROJETS -->
 
 
-        <!-- COMPETENCES -->
-        <section id="competence">
-            <h2 class="h2 text-center">Les compétences qu'il a acquis</h2>
-            <div class="content">
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Gestion Projet</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-        
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Management</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-        
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Formateur</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-        
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Gestion Projet</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-    
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Management</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-    
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Formateur</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-    
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Formateur</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-    
-                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                        <span class="text-3xl font-bold">Formateur</span>
-                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /COMPETENCES -->
 
         <!-- SERVICES -->
         <section id="service">
@@ -132,11 +136,13 @@ head($page); ?>
             <div class="myCard">
                 <div class="innerCard">
                     <div class="frontSide">
-                        <p class="title">FRONT SIDE</p>
-                        <p>Développeur</p>
+                        <p class="title">DEVELOPPEMENT</p>
+                        <p>A partir de 50€</p>
                     </div>
                     <div class="backSide">
-                        <p class="title">BACK SIDE</p>
+                        <p>Site e-commerce</p>
+                        <p>Site vitrine</p>
+                        <p>Leave Me</p>
                         <p>Leave Me</p>
                     </div>
                 </div>
@@ -145,11 +151,10 @@ head($page); ?>
             <div class="myCard">
                 <div class="innerCard">
                     <div class="frontSide">
-                        <p class="title">FRONT SIDE</p>
-                        <p>Hover Me</p>
+                        <p class="title">SERVEUR</p>
+                        <p>A partir de 50€</p>
                     </div>
                     <div class="backSide">
-                        <p class="title">BACK SIDE</p>
                         <p>Leave Me</p>
                     </div>
                 </div>
@@ -161,7 +166,7 @@ head($page); ?>
 
     </main>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <script type="module" src="js/script.js"></script> -->
+    <script type="module" src="js/script.js"></script>
 </body>
 
 </html>
