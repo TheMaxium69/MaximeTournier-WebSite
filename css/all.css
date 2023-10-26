@@ -58,6 +58,7 @@ body {
     transition: 0.8s;
     background-size: 280% auto;
     background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    /* background-image: linear-gradient(325deg, #bce5ff 0, #9db9f2 50%, #7e8fb3 100%); */
     border: none;
     border-radius: var(--radii);
     color: var(--btn-bg-color);
