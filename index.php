@@ -19,7 +19,7 @@ head($page); ?>
                     <div class="card-content">
                         <h1 class="h1">MAXIME TOURNIER</h1>
                         <h4 class="h4">Fondateur & PDG de Tyrolium</h4>
-                        <button type="button" class="btn-donate" onclick='window.location.href = "https://tyrolium.fr/"'>
+                        <button class="btn-donate" onclick='window.location.href = "https://tyrolium.fr/"'>
                             Tyrolium.fr
                         </button>
                         <blockquote>
@@ -96,7 +96,7 @@ head($page); ?>
                                 <img src="https://tyrolium.fr/Contenu/Image/Tyrolium%20Site.png" alt="">
                             </div>
                             <div class="text">
-                                <h3 class="h3">Tyrolium</h3>
+                                <h2 class="h2">Tyrolium</h2>
                             </div>
                         </div>
                         <div class="blob"></div>
@@ -123,6 +123,10 @@ head($page); ?>
                         </div>
                         <div class="text">
                             <h3 class="h3">Génération IUM</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>Président
+                            </div>
+                            <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créteur de contenu, d'artiste et métiers d'internet.</p>
                         </div>
                         </div>
                         <div class="blob"></div>
