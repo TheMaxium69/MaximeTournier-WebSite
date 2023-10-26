@@ -6,7 +6,7 @@ head($page); ?>
     <header> <?php navbar($page); ?> </header>
     
     <!-- BACKGROUND -->
-    <canvas class="full-page-bg orb-canvas"></canvas>
+    <!-- <canvas class="full-page-bg orb-canvas"></canvas> -->
     <!-- /BACKGROUND -->
     
     
@@ -31,58 +31,60 @@ head($page); ?>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- /HEADER -->
-            
-            <!-- COMPETENCES -->
-            <section id="competence">
-                <h2 class="h2 text-center">Les compétences acquises</h2>
-                <div class="content">
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Gestion Projet</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
+            </div>
+        </section>
+        <!-- /HEADER -->
+        
+        
+        <!-- COMPETENCES -->
+        <section id="competence">
+            <h2 class="h2 text-center">Les compétences acquises</h2>
+            <div class="content">
+                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                        <span class="text-3xl font-bold">Gestion Projet</span>
+                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
                     </div>
-            
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Management</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-            
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Formateur</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-            
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Gestion Projet</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-            
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Management</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-            
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Formateur</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-            
-                    
                 </div>
-            </section>
+        
+                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                        <span class="text-3xl font-bold">Management</span>
+                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                    </div>
+                </div>
+        
+                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                        <span class="text-3xl font-bold">Formateur</span>
+                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                    </div>
+                </div>
+        
+                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                        <span class="text-3xl font-bold">Gestion Projet</span>
+                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                    </div>
+                </div>
+        
+                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                        <span class="text-3xl font-bold">Management</span>
+                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                    </div>
+                </div>
+        
+                <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                    <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                        <span class="text-3xl font-bold">Formateur</span>
+                        <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </section>
             <!-- /COMPETENCES -->
 
         <!-- PROJETS -->
@@ -108,13 +110,11 @@ head($page); ?>
                     <div class="card">
                         <div class="bg d-flex">
                             <div class="picture">
-                                <img src="https://www.alterergos.fr/wp-content/uploads/2015/12/Plan-de-formation.jpg" alt="" srcset="">
+                                <img src="https://www.journaldeleconomie.fr/photo/art/grande/42987633-35632661.jpg?v=1582272766" alt="" srcset="">
                             </div>
                             <div class="text">
                                 <h3 class="h3">Formateur</h3>
-                                <div class="icone">
-                                    <i class="fa-solid fa-star"></i>Président
-                                </div>
+                                
                                 <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.</p>
                             </div>
                         </div>

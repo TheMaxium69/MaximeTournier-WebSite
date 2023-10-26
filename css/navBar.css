@@ -37,6 +37,7 @@
 
 #navbar .content .items ul li a:hover {
   border-bottom: 4px solid rgb(71, 184, 255);
+  color: rgb(71, 184, 255);
 }
 
 #navbar .btn-donate i {

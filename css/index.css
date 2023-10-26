@@ -1,6 +1,11 @@
 /* HEADER */
+#header {
+  display: flex;
+  width: 100%;
+}
+
 #header .card {
-    width: 90%;
+    width: 50%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -166,7 +171,7 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: #ff0000;
+    background-color: #3891FC;
     opacity: 1;
     filter: blur(12px);
     animation: blob-bounce 5s infinite ease;
@@ -261,7 +266,7 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    background-color: #ff0000;
+    background-color: #3891FC;
     opacity: 1;
     filter: blur(12px);
     animation: blob-bounce 5s infinite ease;
@@ -294,10 +299,10 @@
 
 /* COMPETENCE */
 #competence {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #ececec;
     padding: 3%;
     margin-top: 5%;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -330,6 +335,8 @@ background-color: transparent;
 width: 250px;
 height: 350px;
 perspective: 1000px;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 
 #service  .title {
@@ -373,7 +380,7 @@ transform: rotateY(180deg);
 
 #service .frontSide,
 #service .frontSide::before {
-    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 
 #service  .backSide,
