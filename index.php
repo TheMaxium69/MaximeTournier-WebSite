@@ -97,6 +97,7 @@ head($page); ?>
                             </div>
                             <div class="text">
                                 <h2 class="h2">Tyrolium</h2>
+                                <p>Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d'applications, de la musique, ou encore de l'audiovisuel.</p>
                             </div>
                         </div>
                         <div class="blob"></div>
@@ -111,6 +112,10 @@ head($page); ?>
                             </div>
                             <div class="text">
                                 <h3 class="h3">Formateur</h3>
+                                <div class="icone">
+                                    <i class="fa-solid fa-star"></i>Président
+                                </div>
+                                <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.</p>
                             </div>
                         </div>
                         <div class="blob"></div>
@@ -118,29 +123,32 @@ head($page); ?>
                     <!-- generation ium -->
                     <div class="card">
                         <div class="bg d-flex">
-                        <div class="picture">
-                            <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
-                        </div>
-                        <div class="text">
-                            <h3 class="h3">Génération IUM</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>Président
+                            <div class="picture">
+                                <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
                             </div>
-                            <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créteur de contenu, d'artiste et métiers d'internet.</p>
-                        </div>
+                            <div class="text">
+                                <h3 class="h3">Génération IUM</h3>
+                                <div class="icone">
+                                    <i class="fa-solid fa-star"></i>Président
+                                </div>
+                                <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.</p>
+                            </div>
                         </div>
                         <div class="blob"></div>
                     </div>
                     <!-- autre -->
                     <div class="card">
                         <div class="bg d-flex">
-                        <div class="picture">
-                            <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
- 
-                        </div>
-                        <div class="text">
-                            <h3 class="h3">Doublet</h3>
-                        </div>
+                            <div class="picture">
+                                <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <h3 class="h3">Doublet</h3>
+                                <div class="icone">
+                                    <i class="fa-solid fa-star"></i>Président
+                                </div>
+                                <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.</p>
+                            </div>
                         </div>
                         <div class="blob"></div>
                     </div>
