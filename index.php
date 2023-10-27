@@ -171,16 +171,15 @@ head($page); ?>
 
         <!-- SERVICES -->
         <section id="service">
-            <div class="title">
-
-                <h2 class="h2 text-center">SERVICES PROPOSES</h2>
-            </div>
-            <div class="card">
+            <h2 class="h2">SERVICES PROPOSES</h2>
+    
+            <div class="cardService">
                 <!-- developpement -->
                 <div class="myCard">
                     <div class="innerCard">
                         <div class="frontSide">
                             <p class="title">DEVELOPPEMENT</p>
+                            <i class="fa-solid fa-display"></i>
                             <p>A partir de 50€</p>
                         </div>
                         <div class="backSide">
@@ -196,6 +195,7 @@ head($page); ?>
                     <div class="innerCard">
                         <div class="frontSide">
                             <p class="title">SERVEUR</p>
+                            <i class="fa-solid fa-server"></i>
                             <p>A partir de 50€</p>
                         </div>
                         <div class="backSide">

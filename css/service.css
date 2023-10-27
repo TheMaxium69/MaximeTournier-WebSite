@@ -1,12 +1,15 @@
 
 #service {
-    display: flex;
-    justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.2);
     width: 60%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+#service .cardService {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #service .myCard {
@@ -18,12 +21,22 @@ margin-top: 5%;
 margin-bottom: 5%;
 }
 
+#service h2 {
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
 #service  .title {
 font-size: 1.5em;
 font-weight: 900;
 text-align: center;
 margin: 0;
 }
+
+#service  i {
+    font-size: 100px;
+    }
 
 #service  .innerCard {
 position: relative;
