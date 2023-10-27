@@ -101,6 +101,16 @@ head($page); ?>
                                 <h2 class="h2">Tyrolium</h2>
                                 <p>Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d'applications, de la musique, ou encore de l'audiovisuel.</p>
                             </div>
+                            <div class="picture">
+                                <img src="assets/tyroserv.jpg" alt="">
+                                <img src="assets/SolidServ.png" alt="">
+                                <img src="assets/influnias.jpeg" alt="">
+                            </div>
+                            <div class="picture">
+                                <img src="assets/gamenium.jpg" alt="">
+                                <img src="assets/tyrostudio.jpeg" alt="">
+                                <img src="assets/tyrodiscord.jpeg" alt="">
+                            </div>
                         </div>
                         <div class="blob"></div>
                     </div>
