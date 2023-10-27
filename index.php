@@ -38,7 +38,7 @@ head($page); ?>
 
         <!-- COMPETENCES -->
         <section id="competence">
-            <h2 class="h2 text-center">Compétences acquises</h2>
+            <h2 class="h2 text-center">COMPETENCES ACQUISES</h2>
             <div class="content">
                 <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
                     <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
@@ -98,7 +98,7 @@ head($page); ?>
                                 <img src="https://tyrolium.fr/Contenu/Image/Tyrolium%20Site.png" alt="">
                             </div>
                             <div class="text">
-                                <h2 class="h2">Tyrolium</h2>
+                                <h2 class="h2">TYROLIUM</h2>
                                 <p>Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d'applications, de la musique, ou encore de l'audiovisuel.</p>
                             </div>
                             <div class="picture">
@@ -123,7 +123,7 @@ head($page); ?>
                                 <img src="https://www.journaldeleconomie.fr/photo/art/grande/42987633-35632661.jpg?v=1582272766" alt="" srcset="">
                             </div>
                             <div class="text">
-                                <h3 class="h3">Formateur</h3>
+                                <h3 class="h3">FORMATEUR</h3>
 
                                 <p>Premier mouvement français pour défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.</p>
                             </div>
@@ -137,7 +137,7 @@ head($page); ?>
                                 <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
                             </div>
                             <div class="text">
-                                <h3 class="h3">Génération IUM</h3>
+                                <h3 class="h3">GENERATION IUM</h3>
                                 <div class="icone">
                                     <i class="fa-solid fa-star"></i>Président
                                 </div>
@@ -153,7 +153,7 @@ head($page); ?>
                                 <img src="https://media.licdn.com/dms/image/C4D0BAQGM-EjsBSNP8Q/company-logo_200_200/0/1656365397392?e=2147483647&v=beta&t=o99ERGulVjuO_aHPBQhkB9uOhAU9_CxjX09CeJIKeH4" alt="" srcset="">
                             </div>
                             <div class="text">
-                                <h3 class="h3">Doublet</h3>
+                                <h3 class="h3">DOUBLET</h3>
                                 <div class="icone">
                                     <i class="fa-solid fa-star"></i>Président
                                 </div>
@@ -171,30 +171,36 @@ head($page); ?>
 
         <!-- SERVICES -->
         <section id="service">
-            <!-- developpement -->
-            <div class="myCard">
-                <div class="innerCard">
-                    <div class="frontSide">
-                        <p class="title">DEVELOPPEMENT</p>
-                        <p>A partir de 50€</p>
-                    </div>
-                    <div class="backSide">
-                        <p>Site e-commerce</p>
-                        <p>Site vitrine</p>
-                        <p>Application web</p>
-                        <p>Leave Me</p>
+            <div class="title">
+
+                <h2 class="h2 text-center">SERVICES PROPOSES</h2>
+            </div>
+            <div class="card">
+                <!-- developpement -->
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <p class="title">DEVELOPPEMENT</p>
+                            <p>A partir de 50€</p>
+                        </div>
+                        <div class="backSide">
+                            <p>Site e-commerce</p>
+                            <p>Site vitrine</p>
+                            <p>Application web</p>
+                            <p>Leave Me</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- serveur -->
-            <div class="myCard">
-                <div class="innerCard">
-                    <div class="frontSide">
-                        <p class="title">SERVEUR</p>
-                        <p>A partir de 50€</p>
-                    </div>
-                    <div class="backSide">
-                        <p>Leave Me</p>
+                <!-- serveur -->
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <p class="title">SERVEUR</p>
+                            <p>A partir de 50€</p>
+                        </div>
+                        <div class="backSide">
+                            <p>Leave Me</p>
+                        </div>
                     </div>
                 </div>
             </div>

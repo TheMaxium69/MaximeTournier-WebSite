@@ -51,6 +51,7 @@
 
 #project .cardTyrolium .bg .text h2 {
   margin-top: 10%;
+  font-weight: bold;
 }
 
 #project .cardTyrolium .bg .text p {
@@ -163,6 +164,10 @@
 #project .cardOther  .bg .text .icone i{
   margin-inline: 10px;
   color: #FCCA38;
+}
+
+#project .cardOther  .bg .text h3 {
+  font-weight: bold;
 }
 
 #project .cardOther  .bg .text p {

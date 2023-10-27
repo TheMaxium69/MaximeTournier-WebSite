@@ -17,4 +17,8 @@
   #competence .group {
       margin: 20px;
   }
+
+  #competence h2 {
+    font-weight: bold;
+}
   /* /COMPETENCE */
