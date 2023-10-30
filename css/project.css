@@ -60,8 +60,9 @@
   text-align: center;
 }
 
-#project .cardTyrolium .bg .text h3 {
-  margin-top: 10%;
+#project .cardTyrolium .bg h4 {
+  margin-top: 5%;
+  font-weight: bold;
 }
 
 #project .cardTyrolium .bg .picture {
