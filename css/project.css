@@ -1,3 +1,5 @@
+
+
 /* PROJECT */
 #project .content {
     display: flex;
@@ -5,6 +7,15 @@
     margin: auto;
     justify-content: space-evenly;
     margin-top: 10%;
+
+    @media (max-width :1324px){
+      width: 100%;
+    }
+
+    @media (max-width :1040px){
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 /* card tyro */
@@ -21,7 +32,10 @@
     justify-content: center;
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
-    ;
+
+    @media (max-width :1324px){
+      width: 500px;
+    }
 }
   
 #project .cardTyrolium  .bg {
@@ -38,6 +52,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+    @media (max-width :1324px){
+      width: 480px;
+    }
 }
 
 #project .cardTyrolium .bg .logo {
@@ -123,6 +141,14 @@
     justify-content: center;
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
+
+    @media (max-width :1324px){
+      width: 500px;
+    }
+    
+    @media (max-width :1040px){
+      margin-top: 5%;
+    }
 }
   
 #project .cardOther  .bg {
@@ -135,6 +161,10 @@
     border-radius: 10px;
     overflow: hidden;
     outline: 2px solid white;
+
+    @media (max-width :1324px){
+      width: 480px;
+    }
 }
 
 #project .cardOther  .bg .picture {
@@ -142,6 +172,10 @@
   display: flex;
   object-fit: cover;
   height: 100%;
+
+  @media (max-width :1324px){
+    width: auto;
+  }
 }
 
 #project .cardOther  .bg .text{
