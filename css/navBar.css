@@ -36,14 +36,10 @@
 }
 
 #navbar .content .items ul li a:hover {
-  border-bottom: 4px solid rgb(71, 184, 255);
-  color: rgb(71, 184, 255);
+  border-bottom: 4px solid #1E74FF;
+  color: #1E74FF;
 }
 
 #navbar .btn-donate i {
     margin-inline: 8px;
 }
-
-/* #navbar .content .items ul li:hover {
-    border-bottom: 4px solid #47b8ff;
-} */

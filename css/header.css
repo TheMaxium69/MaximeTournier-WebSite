@@ -43,9 +43,6 @@
     height: 420px;
 }
 
-#header .card .contenu blockquote {
-    margin-top: 3%;
-}
 
 #header .card-picture {
     width: 30%;
@@ -127,6 +124,7 @@
   #header  .socialContainer {
     width: 52px;
     height: 52px;
+    border-radius: 50%;
     background-color: rgb(44, 44, 44);
     display: flex;
     align-items: center;

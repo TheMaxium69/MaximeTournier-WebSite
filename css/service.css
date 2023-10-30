@@ -63,21 +63,20 @@ transform: rotateY(180deg);
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 4px solid white;
     border-radius: 1rem;
     color: white;
-    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
     font-weight: 700;
 }
 
 #service .frontSide,
 #service .frontSide::before {
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-image: linear-gradient(325deg, #1E74FF 0%, #60DAFF 100%, #1E74FF 90%);
 }
 
 #service  .backSide,
 #service  .backSide::before {
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(325deg, #1E74FF 0%, #60DAFF 100%, #1E74FF 90%);
 }
 
 #service .backSide {
