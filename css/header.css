@@ -163,9 +163,13 @@
     background-color: #0072b1;
     transition-duration: .3s;
   }
-  /* Whatsapp*/
+  /* GITHUB*/
+  #header .containerFour i {
+    color: white;
+    font-size: 23px;
+  }
   #header .containerFour:hover {
-    background-color: #128C7E;
+    background-color: black;
     transition-duration: .3s;
   }
   
@@ -181,8 +185,12 @@
   #header .socialSvg path {
     fill: rgb(255, 255, 255);
   }
-  
+
   #header .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+
+  #header .socialContainer:hover i {
     animation: slide-in-top 0.3s both;
   }
   
