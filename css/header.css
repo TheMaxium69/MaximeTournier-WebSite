@@ -1,3 +1,10 @@
+@media (max-width: 844px) {
+    #header .card-picture {
+        display: none;
+    }
+}
+
+
 #header {
   display: flex;
   width: 100%;
@@ -31,6 +38,10 @@
     text-align: center;
     height: 100%;
     padding: 3%;
+
+    @media (max-width: 844px) {
+        width: 100%;
+    }
 }
 
 #header .card-content h1 {
@@ -107,6 +118,11 @@
   justify-content: center;
   font-size: x-large;
   height: 15%;
+
+  @media (max-width: 844px) {
+    height: 10%;
+    font-size: large;
+  }
 }
 
 /* réseaux sociaux */
