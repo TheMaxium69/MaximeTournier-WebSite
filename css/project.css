@@ -18,65 +18,35 @@
 
 /* card tyro */
 #project .cardTyrolium .card {
-    position: relative;
     width: 600px;
-    height: 900px;
-    border-radius: 14px;
-    z-index: 1111;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-    background-color: rgba(255, 255, 255, 0.2);
-
+    height: 970px;
+    
     @media (max-width :1324px){
       width: 500px;
     }
 }
   
 #project .cardTyrolium  .bg {
-    position: absolute;
-    width: 580px;
-    height: 880px;
-    z-index: 2;
-    background: #ececec;
-    backdrop-filter: blur(24px);
-    border-radius: 10px;
-    overflow: hidden;
-    outline: 2px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
-    @media (max-width :1324px){
-      width: 480px;
-    }
+    text-align: center;
 }
 
 #project .cardTyrolium .bg .logo {
   width: 40%;
 }
-#project .cardTyrolium .bg .text {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
+
 
 #project .cardTyrolium .bg .text h2 {
   font-weight: bold;
 }
 
-#project .cardTyrolium .bg .text p {
-  padding: 5%;
-  text-align: center;
-}
-
 #project .cardTyrolium .bg h4 {
   font-weight: bold;
 }
+
 
 #project .cardTyrolium .bg .picture {
   display: flex;
@@ -88,81 +58,25 @@
   border-radius: 50%;
   width: 20%;
 }
-  
-#project .cardTyrolium .blob {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: #3891FC;
-    opacity: 1;
-    filter: blur(12px);
-    animation: blob-bounce 5s infinite ease;
-}
-  
-  @keyframes blob-bounce {
-    0% {
-      transform: translate(-100%, -100%) translate3d(0, 0, 0);
-    }
-  
-    25% {
-      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
-    }
-  
-    50% {
-      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
-    }
-  
-    75% {
-      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
-    }
-  
-    100% {
-      transform: translate(-100%, -100%) translate3d(0, 0, 0);
-    }
-  }
   /* / card tyro */
 
-  #project .cardOther .card {
-    position: relative;
-    width: 700px;
-    height: 300px;
-    border-radius: 14px;
-    z-index: 1111;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-    background-color: rgba(255, 255, 255, 0.2);
+#project .cardOther .card {
+  width: 700px;
+  height: 300px;
+  margin-bottom: 5%;
 
-    @media (max-width :1324px){
-      width: 500px;
-    }
-    
-    @media (max-width :1040px){
-      margin-top: 5%;
-    }
+  @media (max-width :1324px){
+    width: 500px;
+  }
+
 }
   
 #project .cardOther  .bg {
-    position: absolute;
-    width: 680px;
-    height: 280px;
-    z-index: 2;
-    background: #ececec;
-    backdrop-filter: blur(24px);
-    border-radius: 10px;
-    overflow: hidden;
-    outline: 2px solid white;
-
-    @media (max-width :1324px){
-      width: 480px;
-    }
+  width: 680px;
+  height: 280px;
+  @media (max-width :1324px){
+    width: 480px;
+  }
 }
 
 #project .cardOther  .bg .picture {
@@ -203,41 +117,5 @@
   padding-inline: 5%;
   text-align: center;
 }
-  
-#project .cardOther .blob {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-color: #3891FC;
-    opacity: 1;
-    filter: blur(12px);
-    animation: blob-bounce 5s infinite ease;
-}
-  
-  @keyframes blob-bounce {
-    0% {
-      transform: translate(-100%, -100%) translate3d(0, 0, 0);
-    }
-  
-    25% {
-      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
-    }
-  
-    50% {
-      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
-    }
-  
-    75% {
-      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
-    }
-  
-    100% {
-      transform: translate(-100%, -100%) translate3d(0, 0, 0);
-    }
-  }
   
 /* /PROJECT */
