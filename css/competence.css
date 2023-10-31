@@ -1,24 +1,12 @@
+#competence .bg {
+    flex-direction: column;
+}
 
-#competence {
-    background-color: rgba(255, 255, 255, 0.3);
-      padding: 3%;
-      margin-top: 5%;
-      width: 100%;
-      margin: auto;
-  }
-  
-  #competence .content {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 3%;
-  }
-  
-  #competence .group {
-      margin: 20px;
-  }
+#competence .group {
+    margin: 20px;
+}
 
-  #competence h2 {
-    font-weight: bold;
+#competence h2 {
+font-weight: bold;
 }
 
