@@ -13,6 +13,10 @@
   align-items: center;
   text-align: center;
 }
+#header .left h1 {
+  font-weight: bold;
+}
+
 #header .right {
     width: 30%;
     background-image: url('../assets/profil.jpg');
