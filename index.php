@@ -40,10 +40,10 @@ head($page); ?>
                             </a>
 
                             <a href="#" class="socialContainer containerFour">
-                                <i class="fa-brands fa-whatsapp"></i>                            
+                                <i class="fa-brands fa-whatsapp"></i>
                             </a>
 
-                            <a href="#" class="socialContainer containerFive">
+                            <a href="https://github.com/TheMaxium69" class="socialContainer containerFive">
                                 <i class="fa-brands fa-github"></i>
                             </a>
 
@@ -55,7 +55,7 @@ head($page); ?>
                                 <i class="fa-brands fa-discord"></i>
                             </a>
 
-                            <a href="" class="socialContainer containerEight">
+                            <a href="https://www.tiktok.com/@themaximesan" class="socialContainer containerEight">
                                 <i class="fa-brands fa-tiktok"></i>
                             </a>
 
@@ -73,50 +73,50 @@ head($page); ?>
         <section id="competence">
             <div class="card">
                 <div class="bg">
-                <h2 class="h2">COMPETENCES ACQUISES</h2>
-                <div class="content">
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Gestion Projet</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                    <h2 class="h2">COMPETENCES ACQUISES</h2>
+                    <div class="content">
+                        <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                            <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                                <span class="text-3xl font-bold">Gestion Projet</span>
+                                <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                            </div>
+                        </div>
+
+                        <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                            <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                                <span class="text-3xl font-bold">Management</span>
+                                <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                            </div>
+                        </div>
+
+                        <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                            <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                                <span class="text-3xl font-bold">Formateur</span>
+                                <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                            </div>
+                        </div>
+
+                        <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                            <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                                <span class="text-3xl font-bold">Gestion Projet</span>
+                                <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                            </div>
+                        </div>
+
+                        <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                            <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                                <span class="text-3xl font-bold">Management</span>
+                                <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                            </div>
+                        </div>
+
+                        <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+                            <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                                <span class="text-3xl font-bold">Formateur</span>
+                                <p class="text-amber-300 font-thin">- Date : 2019 -</p>
+                            </div>
                         </div>
                     </div>
-    
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Management</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-    
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Formateur</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-    
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Gestion Projet</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-    
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Management</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-    
-                    <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-                        <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                            <span class="text-3xl font-bold">Formateur</span>
-                            <p class="text-amber-300 font-thin">- Date : 2019 -</p>
-                        </div>
-                    </div>
-                </div>
                 </div>
                 <div class="blob"></div>
             </div>
@@ -211,43 +211,43 @@ head($page); ?>
 
         <!-- SERVICES -->
         <section id="service">
-        <div class="card">
-            <div class="bg">
-                <h2 class="h2">SERVICES PROPOSES</h2>
-                <div class="cardService">
-                    <!-- developpement -->
-                    <div class="myCard">
-                        <div class="innerCard">
-                            <div class="frontSide">
-                                <p class="title">DEVELOPPEMENT</p>
-                                <i class="fa-solid fa-display"></i>
-                                <p>A partir de 50€</p>
-                            </div>
-                            <div class="backSide">
-                                <p>Site e-commerce</p>
-                                <p>Site vitrine</p>
-                                <p>Application web</p>
-                                <p>Leave Me</p>
+            <div class="card">
+                <div class="bg">
+                    <h2 class="h2">SERVICES PROPOSES</h2>
+                    <div class="cardService">
+                        <!-- developpement -->
+                        <div class="myCard">
+                            <div class="innerCard">
+                                <div class="frontSide">
+                                    <p class="title">DEVELOPPEMENT</p>
+                                    <i class="fa-solid fa-display"></i>
+                                    <p>A partir de 50€</p>
+                                </div>
+                                <div class="backSide">
+                                    <p>Site e-commerce</p>
+                                    <p>Site vitrine</p>
+                                    <p>Application web</p>
+                                    <p>Leave Me</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- serveur -->
-                    <div class="myCard">
-                        <div class="innerCard">
-                            <div class="frontSide">
-                                <p class="title">SERVEUR</p>
-                                <i class="fa-solid fa-server"></i>
-                                <p>A partir de 50€</p>
-                            </div>
-                            <div class="backSide">
-                                <p>Leave Me</p>
+                        <!-- serveur -->
+                        <div class="myCard">
+                            <div class="innerCard">
+                                <div class="frontSide">
+                                    <p class="title">SERVEUR</p>
+                                    <i class="fa-solid fa-server"></i>
+                                    <p>A partir de 50€</p>
+                                </div>
+                                <div class="backSide">
+                                    <p>Leave Me</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="blob"></div>
             </div>
-            <div class="blob"></div>
-        </div>
         </section>
         <!-- /SERVICES -->
 
