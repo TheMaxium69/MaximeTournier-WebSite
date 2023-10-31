@@ -195,40 +195,43 @@ head($page); ?>
 
         <!-- SERVICES -->
         <section id="service">
-            
-            <h2 class="h2">SERVICES PROPOSES</h2>
-
-            <div class="cardService">
-                <!-- developpement -->
-                <div class="myCard">
-                    <div class="innerCard">
-                        <div class="frontSide">
-                            <p class="title">DEVELOPPEMENT</p>
-                            <i class="fa-solid fa-display"></i>
-                            <p>A partir de 50€</p>
-                        </div>
-                        <div class="backSide">
-                            <p>Site e-commerce</p>
-                            <p>Site vitrine</p>
-                            <p>Application web</p>
-                            <p>Leave Me</p>
+        <div class="card">
+            <div class="bg">
+                <h2 class="h2">SERVICES PROPOSES</h2>
+                <div class="cardService">
+                    <!-- developpement -->
+                    <div class="myCard">
+                        <div class="innerCard">
+                            <div class="frontSide">
+                                <p class="title">DEVELOPPEMENT</p>
+                                <i class="fa-solid fa-display"></i>
+                                <p>A partir de 50€</p>
+                            </div>
+                            <div class="backSide">
+                                <p>Site e-commerce</p>
+                                <p>Site vitrine</p>
+                                <p>Application web</p>
+                                <p>Leave Me</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- serveur -->
-                <div class="myCard">
-                    <div class="innerCard">
-                        <div class="frontSide">
-                            <p class="title">SERVEUR</p>
-                            <i class="fa-solid fa-server"></i>
-                            <p>A partir de 50€</p>
-                        </div>
-                        <div class="backSide">
-                            <p>Leave Me</p>
+                    <!-- serveur -->
+                    <div class="myCard">
+                        <div class="innerCard">
+                            <div class="frontSide">
+                                <p class="title">SERVEUR</p>
+                                <i class="fa-solid fa-server"></i>
+                                <p>A partir de 50€</p>
+                            </div>
+                            <div class="backSide">
+                                <p>Leave Me</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="blob"></div>
+        </div>
         </section>
         <!-- /SERVICES -->
 

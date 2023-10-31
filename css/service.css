@@ -7,12 +7,39 @@
 }
 
 #service {
-    background-color: rgba(255, 255, 255, 0.2);
     width: 60%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
+
+#service .card {
+    height: 600px;
+}
+
+#service .bg {
+    flex-direction: column;
+}
+
+#service .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+   justify-content: space-between;
+}
+
+#service .group {
+    margin: 20px;
+}
+
+#service h2 {
+font-weight: bold;
+text-align: center;
+margin-top: 5%;
+}
+
 
 #service .cardService {
     display: flex;
@@ -20,25 +47,24 @@
 }
 
 #service .myCard {
-background-color: transparent;
-width: 250px;
-height: 350px;
-perspective: 1000px;
-margin-top: 5%;
-margin-bottom: 5%;
+    background-color: transparent;
+    width: 250px;
+    height: 350px;
+    perspective: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #service h2 {
     text-align: center;
-    padding-top: 5%;
     font-weight: bold;
 }
 
 #service  .title {
-font-size: 1.5em;
-font-weight: 900;
-text-align: center;
-margin: 0;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
 }
 
 #service  i {
