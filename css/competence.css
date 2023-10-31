@@ -1,5 +1,18 @@
+#competence .card {
+    height: 600px;
+}
+
 #competence .bg {
     flex-direction: column;
+}
+
+#competence .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+   justify-content: space-between;
 }
 
 #competence .group {
@@ -8,5 +21,7 @@
 
 #competence h2 {
 font-weight: bold;
+text-align: center;
+margin-top: 5%;
 }
 
