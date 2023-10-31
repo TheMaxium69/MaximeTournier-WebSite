@@ -1,27 +1,9 @@
-#header {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 
-#header .card {
-  width: 70%;
-  margin: auto;
-}
-
-#header .card .bg {
-  padding: 0;
-}
-
-#header .left {
-  width: 70%;
-  padding: 20px;
-}
-
-#header .right {
+/* #header .right {
     width: 30%;
     background-image: url('../assets/profil.jpg');
     background-size: cover;
-}
+} */
 
 
 /* bouton tyrolium */
