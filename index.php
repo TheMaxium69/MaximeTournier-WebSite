@@ -40,9 +40,25 @@ head($page); ?>
                             </a>
 
                             <a href="#" class="socialContainer containerFour">
+                                <i class="fa-brands fa-whatsapp"></i>                            
+                            </a>
 
+                            <a href="#" class="socialContainer containerFive">
                                 <i class="fa-brands fa-github"></i>
                             </a>
+
+                            <a href="https://www.youtube.com/channel/UCY7TQJxzGSawF0YnixBAAXA" class="socialContainer containerSix">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+
+                            <a href="" class="socialContainer containerSeven">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+
+                            <a href="" class="socialContainer containerEight">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+
                         </div>
                     </div>
                     <div class="right"></div>

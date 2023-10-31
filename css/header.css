@@ -72,16 +72,37 @@
     background-color: #0072b1;
     transition-duration: .3s;
   }
-  /* GITHUB*/
-  #header .containerFour i {
-    color: white;
-    font-size: 23px;
-  }
+  /* whatsapp*/
   #header .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  #header i {
+    color: white;
+    font-size: 20px;
+  }
+  /* github */
+  #header .containerFive:hover {
+    background-color: black;
+    transition-duration: .3s;
+  }
+  /* youtube */
+  #header .containerSix:hover {
+    background-color: #c4302b;
+    transition-duration: .3s;
+  }
+  /* discord */
+  #header .containerSeven:hover {
+    background-color: #738ADB;
+    transition-duration: .3s;
+  }
+  /* tiktok */
+  #header .containerEight:hover {
     background-color: black;
     transition-duration: .3s;
   }
   
+
   #header .socialContainer:active {
     transform: scale(0.9);
     transition-duration: .3s;
