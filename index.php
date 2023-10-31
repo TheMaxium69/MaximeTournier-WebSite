@@ -45,8 +45,8 @@ head($page); ?>
                             </a>
 
                             <a href="#" class="socialContainer containerFour">
-                            
-                                <i class="fa-brands fa-github"></i>                          
+
+                                <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
                     </div>
@@ -304,6 +304,7 @@ head($page); ?>
     </main>
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/elias.js"></script>
 </body>
 
 </html>
