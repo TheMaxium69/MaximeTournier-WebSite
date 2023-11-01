@@ -115,6 +115,12 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                                 <h3>↓ Les projet de Tyrolium ↓</h3>
 
+                                <div class="protyroList">
+
+
+
+                                </div>
+
                             </article>
 
                         </div>
@@ -281,6 +287,16 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                         #project .tyro-art{
                             padding: 30px 0px;
+                        }
+                        #project .protyroList{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                        }
+
+                        #project .protyroList img{
+                            border-radius: 50%;
+                            width: 20%;
                         }
 
 
