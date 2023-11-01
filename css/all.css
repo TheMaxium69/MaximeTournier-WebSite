@@ -8,6 +8,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
 
+  background: linear-gradient(90deg, rgba(255, 40, 0, 0.75) 0%, rgba(125, 28, 130, 0.75) 50%, rgba(0, 16, 255, 0.7525385154061625) 100%)!important;
+
   background: rgb(25,25,119);
   background: -moz-linear-gradient(133deg, rgba(25,25,119,1) 24%, rgba(255,0,16,1) 73%, rgba(141,17,17,1) 100%);
   background: -webkit-linear-gradient(133deg, rgba(25,25,119,1) 24%, rgba(255,0,16,1) 73%, rgba(141,17,17,1) 100%);
