@@ -95,6 +95,7 @@ footer .card{
   backdrop-filter: blur(200px);
   background: #4d4d4d24;
   border: solid rgba(255, 255, 255, 0.2) 3px;
+  box-shadow: 10px 5px 30px #00000078;
 }
 
 .card-style{
@@ -152,7 +153,7 @@ footer .card{
   background-size: 125%;
   background-position: 53% 4%;
   background-repeat: no-repeat;
-  border-bottom: solid black;
+  /*border-bottom: solid black;*/
   /*margin-right: 37px;*/
   max-width: 483px;
   margin-right: auto;
