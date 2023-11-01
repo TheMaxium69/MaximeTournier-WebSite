@@ -20,6 +20,14 @@ h3{
   color: white;
 }
 
+h2,
+h1,
+h3,
+h6,
+p {
+  color: white;
+}
+
 
 hr{
   width: 50%;
