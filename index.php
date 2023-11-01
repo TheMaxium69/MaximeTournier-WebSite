@@ -39,7 +39,7 @@ head($page); ?>
                     <hr>
                     <div class="d-flex">
 
-                        <div class="left">
+                        <div class="left card-white card-style">
 
                             <article>
 
@@ -49,7 +49,7 @@ head($page); ?>
 
                         </div>
 
-                        <div class="right">
+                        <div class="right card-white card-style">
 
                             <article>
 
@@ -101,7 +101,7 @@ head($page); ?>
     <!-- FOOTER -->
     <footer>
 
-        <div class="card">
+        <div class="card card-white">
             <div class="bg">
                 <h2>FOOTER</h2>
             </div>
