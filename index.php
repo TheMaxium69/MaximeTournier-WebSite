@@ -3,12 +3,13 @@ $page = 1;
 head($page); ?>
 
 <body>
+<div class="svg">
     <header> <?php navbar($page); ?> </header>
 
     <main>
 
         <!-- HEADER -->
-        <section id="header">
+        <section id="header" style="padding-top: 107px;">
             <div class="card">
                 <div class="bg">
 
@@ -461,7 +462,7 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
 
 
-
+</div>
 </body>
 
 </html>
