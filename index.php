@@ -93,11 +93,27 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                             <article>
 
-                                <div class="img img-tyro">
-
-                                </div>
+                                <div class="img img-tyro"></div>
 
                                 <h3>Tyrolium</h3>
+                                <p style="margin-bottom: unset"><small>Fondé en Juillet 2017</small></p>
+                                <hr style="
+                            margin: 13px auto!important;
+                            width: 60%!important;
+                            border: solid white 1px!important;
+                            opacity: 0.7!important;">
+                                <p class="projet-desc desc-tyro">
+                                    J'ai fondé ce projet en 2017 à l'âge de 14ans et continue toujours aujourd'hui
+                                    C'est littéralement le projet de toute une vie pour moi !!
+<br><br>
+                                    Mais c'est quoi ?
+<br><br>
+                                    Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.
+
+
+                                </p>
+
+                                <h3>↓ Les projet de Tyrolium ↓</h3>
 
                             </article>
 
@@ -108,30 +124,30 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                         <div class="right card-white card-style">
 
-                            <article class="d-flex">
+                            <article class="d-flex Art-other">
 
-                                <div class="left">
-                                    <div class="img img-tyro"></div>
-
+                                <div class="left-auto">
+                                    <div class="img img-gen"></div>
                                 </div>
                                 <div class="right">
-                                    <h3>Tyrolium</h3>
-                                    <p style="margin-bottom: unset"><small>Créer le</small></p>
+                                    <h3>Génération IUM</h3>
+                                    <p style="margin-bottom: unset"><small>Fondé en Juin 2022</small></p>
                                     <hr style="
                             margin: 13px auto!important;
                             width: 60%!important;
                             border: solid white 1px!important;
                             opacity: 0.7!important;">
-                                    <p class="projet-desc">J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu</p>
+                                    <p class="projet-desc">
+                                        j'ai fondé cette organisation politique qui a pour but de défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.
+                                    </p>
                                 </div>
 
                             </article>
                             <hr>
-                            <article class="d-flex">
+                            <article class="d-flex Art-other">
 
-                                <div class="left">
+                                <div class="left-auto">
                                     <div class="img img-tyro"></div>
-
                                 </div>
                                 <div class="right">
                                     <h3>Tyrolium</h3>
@@ -166,17 +182,34 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                             height: 177px;
                             background-image: url("https://tyrolium.fr/Contenu/Image/Tyrolium Site.png");
                         }
+                        .img-gen{
+                            border-radius: 33px;
+                            width: 200px;
+                            height: 200px;
+                            background-image: url("https://tyrolium.fr/assets/part/Generatium-ium.png");
+                            background-size: cover !important;
+                        }
 
                         #project div.right hr{
                             width : 85%;
                         }
 
                         #project div.right div.right{
-                            width : 65%;
+                            width : 50%;
+                        }
+                        #project div.right div.left-auto{
+                            margin-left: auto !important;
                         }
 
                         #project .projet-desc{
                             font-size: 1rem;
+                        }
+                        #project .desc-tyro{
+                            margin: 0px 69px;
+                        }
+
+                        #project .Art-other{
+                            margin: 64px 0px;
                         }
 
 
