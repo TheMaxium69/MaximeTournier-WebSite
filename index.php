@@ -12,7 +12,33 @@ head($page); ?>
             <div class="card">
                 <div class="bg">
 
-                    <h2>Maxime Tournier</h2>
+
+                    <div class="d-flex">
+
+                        <div class="left">
+
+                            <h1>
+                                Maxime Tournier
+                            </h1>
+                            <h2>Entrepreneur & Développeur</h2>
+                            <h3>Fondateur de Tyrolium</h3>
+                            <hr>
+                            <p>
+                                "
+                                Vous êtes a trois click de la réussite
+
+                                "
+                            </p>
+
+                        </div>
+
+                        <div class="right">
+
+
+                        </div>
+
+                    </div>
+
 
 
                 </div>
@@ -24,7 +50,21 @@ head($page); ?>
         <section id="competence">
             <div class="card">
                 <div class="bg">
-                    <h2>A propos</h2>
+                    <h2>A Propos</h2>
+
+                    <hr>
+
+                    <p>
+zaekzazan lenzaln ezalkenzaljne zabezkjbezae
+                        za e
+                        zae
+                        ze za
+                        ez
+                        eza
+
+                    </p>
+
+
                 </div>
             </div>
         </section>
@@ -35,6 +75,7 @@ head($page); ?>
             <div class="card">
                 <div class="bg">
                     <h2>Compétence</h2>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -52,23 +93,56 @@ head($page); ?>
 
                             <article>
 
+                                <div class="img img-tyro">
+
+                                </div>
+
                                 <h3>Tyrolium</h3>
 
                             </article>
 
                         </div>
 
+
+
+
                         <div class="right card-white card-style">
 
-                            <article>
+                            <article class="d-flex">
 
-                                <h3>Tyrolium</h3>
+                                <div class="left">
+                                    <div class="img img-tyro"></div>
+
+                                </div>
+                                <div class="right">
+                                    <h3>Tyrolium</h3>
+                                    <p style="margin-bottom: unset"><small>Créer le</small></p>
+                                    <hr style="
+                            margin: 13px auto!important;
+                            width: 60%!important;
+                            border: solid white 1px!important;
+                            opacity: 0.7!important;">
+                                    <p class="projet-desc">J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu</p>
+                                </div>
 
                             </article>
+                            <hr>
+                            <article class="d-flex">
 
-                            <article>
+                                <div class="left">
+                                    <div class="img img-tyro"></div>
 
-                                <h3>Tyrolium</h3>
+                                </div>
+                                <div class="right">
+                                    <h3>Tyrolium</h3>
+                                    <p style="margin-bottom: unset"><small>Créer le</small></p>
+                                    <hr style="
+                            margin: 13px auto!important;
+                            width: 60%!important;
+                            border: solid white 1px!important;
+                            opacity: 0.7!important;">
+                                    <p class="projet-desc">J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu </p>
+                                </div>
 
                             </article>
 
@@ -80,10 +154,31 @@ head($page); ?>
 
                     <style>
 
-
-                        #project h2{
-                            text-align: center;
+                        #project div.img{
+                            margin: 14px auto;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
                         }
+
+                        .img-tyro{
+                            width: 229px;
+                            height: 177px;
+                            background-image: url("https://tyrolium.fr/Contenu/Image/Tyrolium Site.png");
+                        }
+
+                        #project div.right hr{
+                            width : 85%;
+                        }
+
+                        #project div.right div.right{
+                            width : 65%;
+                        }
+
+                        #project .projet-desc{
+                            font-size: 1rem;
+                        }
+
 
                     </style>
 
@@ -98,7 +193,8 @@ head($page); ?>
         <section id="service">
             <div class="card">
                 <div class="bg">
-                    <h2>SERVICES PROPOSES</h2>
+                    <h2>SERVICES</h2>
+                    <hr>
                 </div>
             </div>
         </section>

@@ -1,6 +1,14 @@
 nav{
-    background-color: unset!important;
-    background: rgba(255, 255, 255, 0.2) !important;
-    border-bottom: solid #f4f4f43d!important;
-
+    background-color: unset !important;
+    background: rgb(255, 255, 255) !important;
+    border-bottom: solid #7b7b7b !important;
+    /*border-left: solid #7b7b7b !important;*/
+    /*border-right: solid #7b7b7b !important;*/
+    /*border-top: unset;*/
+    /*border-radius: 23px;*/
+    /*border-top-left-radius: 23px;*/
+    /*border-top-right-radius: 23px;*/
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 7px 43px !important;
  }

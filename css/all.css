@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 /***********
     ALL
  *************/
 
 body,
 html{
+  font-family: 'Montserrat', sans-serif;
+
   background: rgb(25,25,119);
   background: -moz-linear-gradient(133deg, rgba(25,25,119,1) 24%, rgba(255,0,16,1) 73%, rgba(141,17,17,1) 100%);
   background: -webkit-linear-gradient(133deg, rgba(25,25,119,1) 24%, rgba(255,0,16,1) 73%, rgba(141,17,17,1) 100%);
@@ -11,21 +16,31 @@ html{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191977",endColorstr="#8d1111",GradientType=1);
 }
 
+h1{
+  font-size: 58px;
+  text-transform: uppercase;
+}
+
 h2,
 h1,
-h3{
+h3 {
   margin-top: 20px;
   margin-bottom: unset;
-  text-align: center;
-  color: white;
 }
 
 h2,
 h1,
 h3,
 h6,
-p {
+p,
+small{
+  text-align: center;
   color: white;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
 }
 
 
@@ -44,6 +59,7 @@ hr{
 #header .card{
   width: 90%;
   margin-top: 107px;
+  max-width: 1227px;
 }
 #project .card{
   width: 90%;
@@ -51,7 +67,11 @@ hr{
 }
 footer .card{
   width: 97%;
-  margin-bottom: 5px;
+  margin-bottom: unset;
+  border-bottom: none;
+  border-radius: none !important;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 
@@ -69,7 +89,7 @@ footer .card{
   padding: 7px;
   border-radius: 23px;
   backdrop-filter: blur(200px);
-  background: transparent;
+  background: #4d4d4d24;
   border: solid rgba(255, 255, 255, 0.2) 3px;
 }
 
@@ -107,6 +127,30 @@ footer .card{
   margin-right: auto;
 }
 
+/*Header*/
+
+#header .left{
+
+  width: 55%;
+  padding: 73px 0px;
+  margin-left: 20px;
+}
+
+#header .left p{
+  text-align: center;
+  font-size: 30px;
+}
+
+#header .right{
+  width: 40%;
+  height: 460px;
+  background-image: url('../assets/profil.jpg');
+  background-size: 125%;
+  background-position: 53% 4%;
+  background-repeat: no-repeat;
+  border-bottom: solid black;
+  margin-right: 37px;
+}
 
 
 
