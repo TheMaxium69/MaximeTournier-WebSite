@@ -115,10 +115,17 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                                 <h3>↓ Les projet de Tyrolium ↓</h3>
 
-                                <div class="protyroList">
-
-
-
+                                <div class="protyro">
+                                    <div class="protyroList">
+                                        <img src="http://tyrolium.fr/Contenu/Image/TyroServS3.png" alt="">
+                                        <img src="http://tyrolium.fr/Contenu/Image/SolidServ.png" alt="">
+                                        <img src="http://tyrolium.fr/Contenu/Image/Influnias.png" alt="">
+                                    </div>
+                                    <div class="protyroList">
+                                        <img src="http://tyrolium.fr/Contenu/Image/Gamenium.png" alt="">
+                                        <img src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" alt="">
+                                        <img src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" alt="">
+                                    </div>
                                 </div>
 
                             </article>
@@ -288,10 +295,15 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                         #project .tyro-art{
                             padding: 30px 0px;
                         }
+
+                        #project .protyro{
+                            margin: 36px 0px;
+                        }
                         #project .protyroList{
                             display: flex;
                             flex-wrap: wrap;
                             justify-content: space-around;
+                            margin-bottom: 30px;
                         }
 
                         #project .protyroList img{
