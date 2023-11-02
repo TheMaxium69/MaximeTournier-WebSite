@@ -96,10 +96,13 @@ footer .card{
 
   padding: 7px;
   border-radius: 23px;
-  backdrop-filter: blur(200px);
+  /*backdrop-filter: blur(200px);*/backdrop-filter: blur(20px);
   background: #4d4d4d24;
-  border: solid rgba(255, 255, 255, 0.2) 3px;
-  box-shadow: 10px 5px 30px #00000078;
+  /*border: solid rgba(255, 255, 255, 0.2) 3px;*/
+  /*box-shadow: 10px 5px 30px #00000078;*/
+
+  border: unset;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px, rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card-style{
@@ -107,7 +110,8 @@ footer .card{
   border-radius: 23px;
   backdrop-filter: blur(200px);
   background: transparent;
-  border: solid rgba(255, 255, 255, 0.2) 3px;
+  /*border: solid rgba(255, 255, 255, 0.2) 3px;*/
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px, rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card .bg {
@@ -121,7 +125,8 @@ footer .card{
 }
 
 .card-white{
-  background: rgba(255, 255, 255, 0.2);
+  /*background: rgba(255, 255, 255, 0.2);*/
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .left {
@@ -180,7 +185,8 @@ footer .card{
   border-radius: 50%;
   background-color: #dddddd45;
   opacity: 0;
-  filter: blur(232px);
+  /*filter: blur(232px);*/
+  filter: blur(75px);
 }
 
 #header .card:hover .blob{
@@ -204,3 +210,185 @@ footer .card:hover .blob{
   opacity: 1;
   background-color: #ffffff21;
 }
+
+/* COMPETENCE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+#competence article {
+  /*width: 80%;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*margin: unset auto;*/
+  margin-bottom: 30px;
+}
+
+#competence .parent-skill {
+  width: 200px;
+  height: auto;
+}
+
+#competence .skill {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  /*box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;*/
+  background-color: conic-gradient(#f9004d 10%, #212428 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-out;
+  will-change: transform;
+}
+
+#competence .skill:hover {
+  transform: scale(1.1);
+}
+
+#competence .progress {
+  width: 95%;
+  height: 95%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#competence .progress-number {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+#competence .title {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* réseaux sociaux */
+#about .social {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+}
+
+/* for all social containers*/
+#about  .socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+  text-decoration: none;
+  transition: transform 0.2s ease-out;
+  will-change: transform;
+}
+/* instagram*/
+#about .containerOne:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  transition-duration: .3s;
+}
+/* twitter*/
+#about .containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+#about .containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* whatsapp*/
+#about .containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+#about .socialContainer i {
+  color: white;
+  font-size: 20px;
+}
+/* github */
+#about .containerFive:hover {
+  background-color: black;
+  transition-duration: .3s;
+}
+/* youtube */
+#about .containerSix:hover {
+  background-color: #c4302b;
+  transition-duration: .3s;
+}
+/* discord */
+#about .containerSeven:hover {
+  background-color: #738ADB;
+  transition-duration: .3s;
+}
+/* tiktok */
+#about .containerEight:hover {
+  background-color: black;
+  transition-duration: .3s;
+}
+
+
+#about .socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+#about .socialSvg {
+  width: 17px;
+}
+
+#about .socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+#about .socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+#about .socialContainer:hover i {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#about .bg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+

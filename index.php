@@ -52,19 +52,57 @@ head($page); ?>
         <section id="about">
             <div class="card">
                 <div class="bg">
-                    <h2>A Propos</h2>
+                    <h2><i class="fa-solid fa-address-card"></i> A Propos</h2>
 
                     <hr>
 
-                    <p>
-zaekzazan lenzaln ezalkenzaljne zabezkjbezae
-                        za e
-                        zae
-                        ze za
-                        ez
-                        eza
+                    <p style="margin: 1rem 10%;margin-bottom: 30px;">
+                        Je me présente sous le nom de Maxime Tournier, âgé de dix-neuf ans.
+                        <br><br>
+                        Je me considère comme un entrepreneur qui a toujours été porté par l'esprit d'entreprise depuis mon plus jeune âge. Grâce à cela, j'ai fondé ma propre entreprise en 2017. Cependant je suis avant tout un passionné d'informatique, voire même un fervent adepte du développement informatique.
+                        <br><br>
+                        C'est ainsi qu'en 2021, fort de mes multiples projets, dont mon entreprise, j'ai décidé de mettre mes compétences à profit en suivant une formation de "Développeur Web et Web Mobile". Cette formation a été couronnée de succès et j'ai pu l'aborder avec facilité.
+                        <br><br>
+                        Depuis 2022, je poursuis mon parcours au sein de mon entreprise, Tyrolium, qui existe depuis six ans. Malgré mon jeune âge, seulement dix-neuf ans, je trouve une grande satisfaction à consacrer mes journées entières à ce projet, m'investissant pleinement pour le rendre meilleur.
+                        <br><br>
+                        Plus récemment, en 2023, j'ai choisi de transmettre mes compétences et mon expérience à travers des formations, dans le but de former une nouvelle génération de développeurs. Je suis heureux de pouvoir partager cette passion et ce savoir-faire avec eux, et je tiens à exprimer ma gratitude envers Human Booster qui me donne l'opportunité de transmettre cette passion.
 
                     </p>
+
+                    <div class="social">
+                        <a href="https://www.instagram.com/the_maxime_san/" class="socialContainer containerOne">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://twitter.com/MaximeTournier2" class="socialContainer containerTwo">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/maxime-tournier-tyrolium/" class="socialContainer containerThree">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="#" class="socialContainer containerFour">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="https://github.com/TheMaxium69" class="socialContainer containerFive">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/channel/UCY7TQJxzGSawF0YnixBAAXA" class="socialContainer containerSix">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                        <a href="" class="socialContainer containerSeven">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@themaximesan" class="socialContainer containerEight">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                    </div>
 
                     <div class="blob"></div>
 
@@ -74,28 +112,17 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
         </section>
         <!-- /ABOUT -->
 
-        <!-- COMPETENCES -->
-        <section id="competence">
-            <div class="card">
-                <div class="bg">
-                    <h2>Compétence</h2>
-                    <hr>
 
-                    <div class="blob"></div>
-                </div>
-            </div>
-        </section>
-        <!-- /COMPETENCES -->
 
         <!-- PROJETS -->
         <section id="project">
             <div class="card">
                 <div class="bg">
-                    <h2>Projet</h2>
+                    <h2><i class="fa-solid fa-star"></i> Projet</h2>
                     <hr>
                     <div class="d-flex">
 
-                        <div class="left card-white card-style">
+                        <div id="c1" class="left card-white card-style">
 
                             <article class="tyro-art">
 
@@ -141,7 +168,7 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
 
 
-                        <div class="right card-white card-style">
+                        <div id="c2" class="right card-white card-style">
 
                             <article class="d-flex Art-other">
 
@@ -206,10 +233,10 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
 
 
-                    <div class="d-flex">
+                    <div class="d-flex" style="margin-bottom: 20px">
 
 
-                        <div class="left left-down card-white card-style">
+                        <div id="c3" class="left left-down card-white card-style">
 
                             <article class="d-flex Art-other">
 
@@ -232,7 +259,7 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                             </article>
 
                         </div>
-                        <div class="right card-white card-style">
+                        <div id="c4" class="right card-white card-style">
 
                             <article class="d-flex Art-other">
 
@@ -318,6 +345,27 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                         }
 
 
+                        #project .img,
+                        #project img{
+                            transform: translate3d(0, 0, 0);
+                            transition: transform 0.2s ease-out;
+                            will-change: transform;
+                        }
+
+                        #project .img:hover{
+                            transform: translate(0, -15px);
+                            transform: translate3d(0, -15px, 0);
+                        }
+
+                        #project img:hover{
+                            -webkit-transform: scale(1.10);
+                            -moz-transform: scale(1.10);
+                            -ms-transform: scale(1.10);
+                            -o-transform: scale(1.10);
+                            transform: scale(1.10);
+                        }
+
+
 
                         .img-tyro{
                             border-radius: 33px;
@@ -384,6 +432,118 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
         </section>
         <!-- /SERVICES -->
 
+        <!-- COMPETENCES -->
+        <section id="competence">
+            <div class="card">
+                <div class="bg">
+                    <h2>Compétence</h2>
+                    <hr>
+
+                    <div style="margin: 66px 35px;">
+                        <article>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="80">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">HTML</span>
+                            </div>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="65">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">Javascript</span>
+                            </div>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="50">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">React</span>
+                            </div>
+
+                        </article>
+                        <article>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="80">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">HTML</span>
+                            </div>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="65">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">Javascript</span>
+                            </div>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="50">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">React</span>
+                            </div>
+
+                        </article>
+                        <article>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="80">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">HTML</span>
+                            </div>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="65">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">Javascript</span>
+                            </div>
+
+                            <div class="parent-skill">
+                                <div class="skill">
+                                    <div class="progress" data-progress="50">
+                                        <span class="progress-number">0%</span>
+                                    </div>
+                                </div>
+                                <span class="title">React</span>
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <script src="javascript/skill.js"></script>
+
+
+
+
+                    <div class="blob"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /COMPETENCES -->
+
 
 
     </main>
@@ -440,12 +600,12 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                     <!-- Links -->
                                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                                    <p><i class="fas fa-home me-3"></i> Décines Chapieu</p>
+                                    <p><i class="fas fa-home me-3"></i> Décines-Chapieux</p>
                                     <p>
                                         <i class="fas fa-envelope me-3"></i>
-                                        mxmtournier@gmail.com
+                                        maxime.tournier@tyrolium.fr
                                     </p>
-                                    <p><i class="fas fa-phone me-3"></i>06.11.11.26.69</p>
+                                    <p><i class="fas fa-phone me-3"></i>06 11 11 26 69</p>
                                 </div>
                                 <!-- Grid column -->
                             </div>
@@ -502,13 +662,52 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                 parallax_card.attr("style", " transform:perspective(5000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
             });
-            $('#competence .card').on('mousemove', function(e) {
+            $('#service .card').on('mousemove', function(e) {
 
-                var parallax_card = $('#competence .card'),
+                var parallax_card = $('#service .card'),
                     ax = ($(window).innerWidth()/2- e.pageX)/100,
                     ay = ($(window).innerHeight()/2- e.pageY)/100;
 
                 parallax_card.attr("style", " transform:perspective(5000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });
+            $('#competence .card').on('mousemove', function(e) {
+
+                var parallax_card = $('#competence .card'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/250,
+                    ay = ($(window).innerHeight()/2- e.pageY)/250;
+
+                parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });
+
+
+            $('#project #c1').on('mousemove', function(e) {
+
+                var parallax_card = $('#project #c1'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/220,
+                    ay = ($(window).innerHeight()/2- e.pageY)/220;
+
+                parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });$('#project #c2').on('mousemove', function(e) {
+
+                var parallax_card = $('#project #c2'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/220,
+                    ay = ($(window).innerHeight()/2- e.pageY)/220;
+
+                parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });$('#project #c3').on('mousemove', function(e) {
+
+                var parallax_card = $('#project #c3'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/200,
+                    ay = ($(window).innerHeight()/2- e.pageY)/200;
+
+                parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });$('#project #c4').on('mousemove', function(e) {
+
+                var parallax_card = $('#project #c4'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/200,
+                    ay = ($(window).innerHeight()/2- e.pageY)/200;
+
+                parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
             });
         });
     </script>
