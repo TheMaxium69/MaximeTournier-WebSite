@@ -41,14 +41,15 @@ head($page); ?>
                     </div>
 
 
+                    <div class="blob"></div>
 
                 </div>
             </div>
         </section>
         <!-- /HEADER -->
 
-        <!-- COMPETENCES -->
-        <section id="competence">
+        <!-- ABOUT -->
+        <section id="about">
             <div class="card">
                 <div class="bg">
                     <h2>A Propos</h2>
@@ -65,11 +66,13 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                     </p>
 
+                    <div class="blob"></div>
 
                 </div>
+
             </div>
         </section>
-        <!-- /COMPETENCES -->
+        <!-- /ABOUT -->
 
         <!-- COMPETENCES -->
         <section id="competence">
@@ -77,6 +80,8 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                 <div class="bg">
                     <h2>Compétence</h2>
                     <hr>
+
+                    <div class="blob"></div>
                 </div>
             </div>
         </section>
@@ -358,6 +363,7 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
                     </style>
 
+                    <div class="blob"></div>
                 </div>
             </div>
         </section>
@@ -371,10 +377,13 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
                 <div class="bg">
                     <h2>SERVICES</h2>
                     <hr>
+
+                    <div class="blob"></div>
                 </div>
             </div>
         </section>
         <!-- /SERVICES -->
+
 
 
     </main>
@@ -452,6 +461,7 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
 
 
 
+                <div class="blob"></div>
 
 
             </div>
@@ -460,7 +470,48 @@ zaekzazan lenzaln ezalkenzaljne zabezkjbezae
     </footer>
     <!-- /FOOTER -->
 
+    <!-- CURSOR -->
+    <div id="cursor" class="cursor" style="position: absolute; "></div>
+    <div id="cursor2" class="cursor2" style="position: absolute;"></div>
+    <div id="cursor3" class="cursor3" style="position: absolute; "></div>
+    <script src="javascript/cursor.js"></script>
+    <!-- /CURSOR -->
 
+    <style>
+
+        .card-1{
+        }
+
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $('#header .card').on('mousemove', function(e) {
+
+                var parallax_card = $('#header .card'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/100,
+                    ay = ($(window).innerHeight()/2- e.pageY)/100;
+
+                parallax_card.attr("style", " transform:perspective(5000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });
+            $('#about .card').on('mousemove', function(e) {
+
+                var parallax_card = $('#about .card'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/100,
+                    ay = ($(window).innerHeight()/2- e.pageY)/100;
+
+                parallax_card.attr("style", " transform:perspective(5000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });
+            $('#competence .card').on('mousemove', function(e) {
+
+                var parallax_card = $('#competence .card'),
+                    ax = ($(window).innerWidth()/2- e.pageX)/100,
+                    ay = ($(window).innerHeight()/2- e.pageY)/100;
+
+                parallax_card.attr("style", " transform:perspective(5000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });
+        });
+    </script>
 
 </div>
 </body>

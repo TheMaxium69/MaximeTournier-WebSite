@@ -170,4 +170,37 @@ footer .card{
 }
 
 
+.card .blob {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #dddddd45;
+  opacity: 0;
+  filter: blur(232px);
+}
 
+#header .card:hover .blob{
+  opacity: 1;
+}
+
+#about .card:hover .blob{
+  opacity: 1;
+}
+
+#competence .card:hover .blob{
+  opacity: 1;
+}
+#project .card:hover .blob{
+  opacity: 1;
+}
+#service .card:hover .blob{
+  opacity: 1;
+}
+footer .card:hover .blob{
+  opacity: 1;
+  background-color: #ffffff21;
+}
