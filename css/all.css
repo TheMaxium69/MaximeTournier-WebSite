@@ -35,6 +35,10 @@ h3 {
   margin-bottom: unset;
 }
 
+h2.titleCard{
+  text-transform: uppercase;
+}
+
 h2,
 h1,
 h3,

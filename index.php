@@ -9,7 +9,7 @@ head($page); ?>
     <main>
 
         <!-- HEADER -->
-        <section id="header" style="padding-top: 107px;">
+        <section id="header" style="padding-top: 135px;">
             <div class="card">
                 <div class="bg">
 
@@ -52,7 +52,7 @@ head($page); ?>
         <section id="about">
             <div class="card">
                 <div class="bg">
-                    <h2><i class="fa-solid fa-address-card"></i> A Propos</h2>
+                    <h2 class="titleCard"><i class="fa-solid fa-address-card"></i> à propos</h2>
 
                     <hr>
 
@@ -118,7 +118,7 @@ head($page); ?>
         <section id="project">
             <div class="card">
                 <div class="bg">
-                    <h2><i class="fa-solid fa-star"></i> Projet</h2>
+                    <h2 class="titleCard"><i class="fa-solid fa-star"></i> Projet</h2>
                     <hr>
                     <div class="d-flex">
 
@@ -423,7 +423,7 @@ head($page); ?>
         <section id="service">
             <div class="card">
                 <div class="bg">
-                    <h2>SERVICES</h2>
+                    <h2 class="titleCard">SERVICES</h2>
                     <hr>
 
                     <div class="blob"></div>
@@ -436,7 +436,7 @@ head($page); ?>
         <section id="competence">
             <div class="card">
                 <div class="bg">
-                    <h2>Compétence</h2>
+                    <h2 class="titleCard">Compétence</h2>
                     <hr>
 
                     <div style="margin: 66px 35px;">
