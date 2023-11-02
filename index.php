@@ -57,49 +57,73 @@ head($page); ?>
                     <hr>
 
                     <p style="margin: 1rem 10%;margin-bottom: 30px;">
-                        Je me présente sous le nom de Maxime Tournier, âgé de dix-neuf ans.
+                        Il se présente sous le nom de Maxime Tournier, âgé de dix-neuf ans.
                         <br><br>
-                        Je me considère comme un entrepreneur qui a toujours été porté par l'esprit d'entreprise depuis mon plus jeune âge. Grâce à cela, j'ai fondé ma propre entreprise en 2017. Cependant je suis avant tout un passionné d'informatique, voire même un fervent adepte du développement informatique.
-                        <br><br>
-                        C'est ainsi qu'en 2021, fort de mes multiples projets, dont mon entreprise, j'ai décidé de mettre mes compétences à profit en suivant une formation de "Développeur Web et Web Mobile". Cette formation a été couronnée de succès et j'ai pu l'aborder avec facilité.
-                        <br><br>
-                        Depuis 2022, je poursuis mon parcours au sein de mon entreprise, Tyrolium, qui existe depuis six ans. Malgré mon jeune âge, seulement dix-neuf ans, je trouve une grande satisfaction à consacrer mes journées entières à ce projet, m'investissant pleinement pour le rendre meilleur.
-                        <br><br>
-                        Plus récemment, en 2023, j'ai choisi de transmettre mes compétences et mon expérience à travers des formations, dans le but de former une nouvelle génération de développeurs. Je suis heureux de pouvoir partager cette passion et ce savoir-faire avec eux, et je tiens à exprimer ma gratitude envers Human Booster qui me donne l'opportunité de transmettre cette passion.
+                        Il se considère comme un entrepreneur qui a toujours été porté par l'esprit d'entreprise depuis son plus jeune âge. Grâce à cela, il a fondé sa propre entreprise en 2017. Cependant, il est avant tout un passionné d'informatique, voire même un fervent adepte du développement informatique.
 
+                        <br><br>C'est ainsi qu'en 2021, fort de ses multiples projets, dont son entreprise, il a décidé de mettre ses compétences à profit en suivant une formation de "Développeur Web et Web Mobile". Cette formation a été couronnée de succès et il a pu l'aborder avec facilité.
+                        <br><br>
+                        Depuis 2022, il poursuit son parcours au sein de son entreprise, Tyrolium, qui existe depuis six ans. Malgré son jeune âge, seulement dix-neuf ans, il trouve une grande satisfaction à consacrer ses journées entières à ce projet, s'investissant pleinement pour le rendre meilleur.
+                        <br><br>
+                        Plus récemment, en 2023, il a choisi de transmettre ses compétences et son expérience à travers des formations, dans le but de former une nouvelle génération de développeurs. Il est heureux de pouvoir partager cette passion et ce savoir-faire avec eux.
                     </p>
 
                     <div class="social">
-                        <a href="https://www.instagram.com/the_maxime_san/" class="socialContainer containerOne">
-                            <i class="fa-brands fa-instagram"></i>
+                        <a class="Btn" href="https://www.instagram.com/the_maxime_san/" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-instagram"></i>
+                             </span>
+                            <span class="BG containerOne"></span>
                         </a>
 
-                        <a href="https://twitter.com/MaximeTournier2" class="socialContainer containerTwo">
-                            <i class="fa-brands fa-twitter"></i>
+                        <a class="Btn"  href="https://twitter.com/MaximeTournier2" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-twitter"></i>
+                             </span>
+                            <span class="BG containerTwo"></span>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/maxime-tournier-tyrolium/" class="socialContainer containerThree">
-                            <i class="fa-brands fa-linkedin"></i>
+                        <a class="Btn" href="https://www.linkedin.com/in/maxime-tournier-tyrolium/" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-linkedin"></i>
+                             </span>
+                            <span class="BG containerThree"></span>
                         </a>
 
-                        <a href="#" class="socialContainer containerFour">
-                            <i class="fa-brands fa-whatsapp"></i>
+                        <a class="Btn" href="#" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-whatsapp"></i>
+                             </span>
+                            <span class="BG containerFour"></span>
                         </a>
 
-                        <a href="https://github.com/TheMaxium69" class="socialContainer containerFive">
-                            <i class="fa-brands fa-github"></i>
+
+                        <a class="Btn" href="https://github.com/TheMaxium69" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-github"></i>
+                             </span>
+                            <span class="BG containerFive"></span>
                         </a>
 
-                        <a href="https://www.youtube.com/channel/UCY7TQJxzGSawF0YnixBAAXA" class="socialContainer containerSix">
-                            <i class="fa-brands fa-youtube"></i>
+                        <a class="Btn" href="https://www.youtube.com/@themaximesan" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-youtube"></i>
+                             </span>
+                            <span class="BG containerSix"></span>
                         </a>
 
-                        <a href="" class="socialContainer containerSeven">
-                            <i class="fa-brands fa-discord"></i>
+                        <a class="Btn" href="#" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-discord"></i>
+                             </span>
+                            <span class="BG containerSeven"></span>
                         </a>
 
-                        <a href="https://www.tiktok.com/@themaximesan" class="socialContainer containerEight">
-                            <i class="fa-brands fa-tiktok"></i>
+                        <a class="Btn" href="https://www.tiktok.com/@themaximesan" target="_blank">
+                             <span class="svgContainer">
+                               <i class="fa-brands fa-tiktok"></i>
+                             </span>
+                            <span class="BG containerEight"></span>
                         </a>
 
                     </div>
@@ -544,7 +568,7 @@ head($page); ?>
         </section>
         <!-- /COMPETENCES -->
 
-
+<!--        https://uiverse.io/andrew-demchenk0/stupid-liger-18-->
 
     </main>
 
@@ -657,8 +681,8 @@ head($page); ?>
             $('#about .card').on('mousemove', function(e) {
 
                 var parallax_card = $('#about .card'),
-                    ax = ($(window).innerWidth()/2- e.pageX)/100,
-                    ay = ($(window).innerHeight()/2- e.pageY)/100;
+                    ax = ($(window).innerWidth()/2- e.pageX)/300,
+                    ay = ($(window).innerHeight()/2- e.pageY)/300;
 
                 parallax_card.attr("style", " transform:perspective(5000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
             });
@@ -673,8 +697,8 @@ head($page); ?>
             $('#competence .card').on('mousemove', function(e) {
 
                 var parallax_card = $('#competence .card'),
-                    ax = ($(window).innerWidth()/2- e.pageX)/250,
-                    ay = ($(window).innerHeight()/2- e.pageY)/250;
+                    ax = ($(window).innerWidth()/2- e.pageX)/450,
+                    ay = ($(window).innerHeight()/2- e.pageY)/450;
 
                 parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
             });
