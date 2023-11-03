@@ -204,6 +204,9 @@ footer .card{
 #competence .card:hover .blob{
   opacity: 1;
 }
+#mysite .card:hover .blob{
+  opacity: 1;
+}
 #project .card:hover .blob{
   opacity: 1;
 }
