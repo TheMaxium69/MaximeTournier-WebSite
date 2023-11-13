@@ -466,13 +466,32 @@ head($page); ?>
 
                         <article>
                             <div class="card-site">
-                                <div class="card__img"></div>
+                                <style>
+                                    .card_tyrolium{
+                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173735211788423208/image.png?ex=65650919&is=65529419&hm=2b83ae0dc98854d4807b67d4ba888f6350a178b4cfa9b0baee727187cf3b4108&=&width=729&height=580");
+
+                                    }
+
+                                    .card_bt{
+                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173734619040976966/image.png?ex=6565088c&is=6552938c&hm=454f01c0fc3d8e3daee1e5ac11887bc4040695f8c28fd60fd788cbc4dde00027&=&width=730&height=579");
+                                    }
+                                    .card_solidserv{
+                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173735598985593002/image.png?ex=65650975&is=65529475&hm=91a8ce0e8bc7daab13cb26b97effcae8f54ddc65c9f2ab10c42a1f2274ddcf0c&=&width=726&height=580");
+                                    }
+                                    .card_palais{
+                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173736532658630747/image.png?ex=65650a54&is=65529554&hm=89ddc2078d835cedfe028483ec2b734488164f59bbf07cb63ff3233e25850a22&=&width=784&height=580");
+                                    }
+                                    .card_tyroserv{
+                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173737091998421075/image.png?ex=65650ad9&is=655295d9&hm=3cadf3355c9810bca8676cfff521c47914644961c232d67a4b9393d74c4d563c&=&width=786&height=580");
+                                    }
+                                </style>
+                                <div class="card__img card_tyrolium"></div>
                                 <div class="card__descr-wrapper">
                                     <p class="card__title">
                                         Tyrolium Site
                                     </p>
                                     <p class="card__descr">
-                                        Site officiel de Tyrolium
+                                        Site officiel de mon entreprise Tyrolium
                                     </p>
                                     <div class="card__links">
                                         <div>
@@ -490,13 +509,13 @@ head($page); ?>
 
                         <article>
                             <div class="card-site">
-                                <div class="card__img"></div>
+                                <div class="card__img card_bt"></div>
                                 <div class="card__descr-wrapper">
                                     <p class="card__title">
-                                        Project
+                                        Bâtir Positif
                                     </p>
                                     <p class="card__descr">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.
+                                        Site de l'entreprise Bâtir positif fait en..
                                     </p>
                                     <div class="card__links">
                                         <div>
@@ -514,13 +533,13 @@ head($page); ?>
 
                         <article>
                             <div class="card-site">
-                                <div class="card__img"></div>
+                                <div class="card__img card_solidserv"></div>
                                 <div class="card__descr-wrapper">
                                     <p class="card__title">
-                                        Project
+                                        SolidServ
                                     </p>
                                     <p class="card__descr">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.
+                                        Site de mon hébergeur de Serveur SolidServ, filaire de Tyrolium
                                     </p>
                                     <div class="card__links">
                                         <div>
@@ -538,13 +557,13 @@ head($page); ?>
 
                         <article>
                             <div class="card-site">
-                                <div class="card__img"></div>
+                                <div class="card__img card_palais"></div>
                                 <div class="card__descr-wrapper">
                                     <p class="card__title">
-                                        Project
+                                        Palais de la sneaks
                                     </p>
                                     <p class="card__descr">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.
+                                        Site Ecommerce de l'entreprise Palais de la sneaks
                                     </p>
                                     <div class="card__links">
                                         <div>
@@ -562,13 +581,13 @@ head($page); ?>
 
                         <article>
                             <div class="card-site">
-                                <div class="card__img"></div>
+                                <div class="card__img card_tyroserv"></div>
                                 <div class="card__descr-wrapper">
                                     <p class="card__title">
-                                        Project
+                                        TyroServ
                                     </p>
                                     <p class="card__descr">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.
+                                        Site Internet de mon Serveur Minecraft, failaire de Tyrolium
                                     </p>
                                     <div class="card__links">
                                         <div>
@@ -631,7 +650,7 @@ head($page); ?>
                 height: 350px;
                 border-radius: 20px;
                 background: var(--bg-color);
-                box-shadow: -9px 9px 18px #5a5a5a;
+                box-shadow: -9px 9px 18px #0000002b;
                 display: flex;
                 flex-direction: column;
                 transition: .4s;
@@ -640,8 +659,7 @@ head($page); ?>
             }
 
             #mysiteGalery .card-site:hover {
-                transform: scale(1.02);
-                box-shadow: 0px 0px 10px 2px #5a5a5a;
+                transform: scale(1.02);  box-shadow: 0px 0px 10px 2px #00000045;
             }
 
             #mysiteGalery .card__img {
@@ -650,6 +668,8 @@ head($page); ?>
                 object-fit: cover;
                 border-radius: 20px 20px 0 0;
                 background-color: blueviolet;
+                background-size: cover;;
+                background-position: top center;
             }
 
             #mysiteGalery .card__descr-wrapper {
@@ -704,114 +724,114 @@ head($page); ?>
         <!-- /MYSITE -->
 
         <!-- COMPETENCES -->
-        <section id="competence">
-            <div class="card">
-                <div class="bg">
-                    <h2 class="titleCard">Compétence</h2>
-                    <hr>
-
-                    <div style="margin: 66px 35px;">
-                        <article>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="80">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">HTML</span>
-                            </div>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="65">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">Javascript</span>
-                            </div>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="50">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">React</span>
-                            </div>
-
-                        </article>
-                        <article>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="80">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">HTML</span>
-                            </div>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="65">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">Javascript</span>
-                            </div>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="50">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">React</span>
-                            </div>
-
-                        </article>
-                        <article>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="80">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">HTML</span>
-                            </div>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="65">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">Javascript</span>
-                            </div>
-
-                            <div class="parent-skill">
-                                <div class="skill">
-                                    <div class="progress" data-progress="50">
-                                        <span class="progress-number">0%</span>
-                                    </div>
-                                </div>
-                                <span class="title">React</span>
-                            </div>
-
-                        </article>
-                    </div>
-
-
-                    <script src="javascript/skill.js"></script>
-
-
-
-                    <div class="blob"></div>
-                </div>
-            </div>
-        </section>
+<!--        <section id="competence">-->
+<!--            <div class="card">-->
+<!--                <div class="bg">-->
+<!--                    <h2 class="titleCard">Compétence</h2>-->
+<!--                    <hr>-->
+<!---->
+<!--                    <div style="margin: 66px 35px;">-->
+<!--                        <article>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="80">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">HTML</span>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="65">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">Javascript</span>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="50">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">React</span>-->
+<!--                            </div>-->
+<!---->
+<!--                        </article>-->
+<!--                        <article>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="80">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">HTML</span>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="65">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">Javascript</span>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="50">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">React</span>-->
+<!--                            </div>-->
+<!---->
+<!--                        </article>-->
+<!--                        <article>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="80">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">HTML</span>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="65">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">Javascript</span>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="parent-skill">-->
+<!--                                <div class="skill">-->
+<!--                                    <div class="progress" data-progress="50">-->
+<!--                                        <span class="progress-number">0%</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <span class="title">React</span>-->
+<!--                            </div>-->
+<!---->
+<!--                        </article>-->
+<!--                    </div>-->
+<!---->
+<!---->
+<!--                    <script src="javascript/skill.js"></script>-->
+<!---->
+<!---->
+<!---->
+<!--                    <div class="blob"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
         <!-- /COMPETENCES -->
 
     </main>
