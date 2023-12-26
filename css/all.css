@@ -295,6 +295,7 @@ footer .card:hover .blob{
   justify-content: center;
   padding: 25px 25px;
   gap: 20px;
+  flex-wrap:wrap;
 }
 #about .social a{
   text-decoration: none;
@@ -463,3 +464,82 @@ footer .card:hover .blob{
   background-color: rgba(225, 225, 225, 0.17);
 }
 
+#header{
+  padding-top: 135px;
+}
+
+/*MOBILE*/
+
+@media (max-width: 1000px) {
+  .card{
+    max-width: 600px!important;
+    margin-top: 0px!important;
+    margin-right: auto!important;
+    margin-bottom: 25px!important;
+    margin-left: auto!important;
+    width: 90%;
+  }
+
+  #header{
+    padding-top: 105px;
+  }
+
+  #header .d-flex{
+    display: unset!important;
+  }
+  #header .right{
+    width: 100%!important;
+    height: 231px!important;
+    margin-left: -6px;background-size: 90%;
+  }
+
+  #header .left{
+    width: 100%!important;
+    margin-left: 0px;
+    padding: 10px 15px;
+  }
+
+  #header .left h1{
+    font-size: 40px;
+  }
+  #header .left h2{
+    font-size: 25px;
+  }
+  #header .left h3{
+    font-size: 23px;
+  }
+  #header .left p{
+    font-size: 20px;
+  }
+
+  #about p{
+    font-size: 1rem;
+    margin: unset!important;
+    margin-bottom: 30px;
+  }
+
+  #project .d-flex{
+    display: unset!important;
+  }
+  #project .left{
+    width: 100%;margin-bottom: 16px;
+  }
+  #project .left h3:last-of-type{
+    font-size: 21px;
+  }
+  #project .right{
+    width: 100%!important;margin-bottom: 16px;
+  }
+  #project .right .right{
+    width: 100%!important;  padding: 10px;
+  }#project .left .right{
+    width: 100%!important;  padding: 10px;
+  }
+  #project .projet-desc{
+    margin: unset!important;
+    padding: 0 10px!important;
+  }
+  #project .Art-other{
+
+  }
+}

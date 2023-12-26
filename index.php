@@ -9,7 +9,7 @@ head($page); ?>
     <main>
 
         <!-- HEADER -->
-        <section id="header" style="padding-top: 135px;">
+        <section id="header">
             <div class="card">
                 <div class="bg">
 
@@ -62,15 +62,15 @@ head($page); ?>
                     <hr>
 
                     <p style="margin: 1rem 10%;margin-bottom: 30px;">
-                        Il se présente sous le nom de Maxime Tournier, âgé de dix-neuf ans.
+                        Je me présente sous le nom de Maxime Tournier, âgé de vingt ans.
                         <br><br>
-                        Il se considère comme un entrepreneur qui a toujours été porté par l'esprit d'entreprise depuis son plus jeune âge. Grâce à cela, il a fondé sa propre entreprise en 2017. Cependant, il est avant tout un passionné d'informatique, voire même un fervent adepte du développement informatique.
-
-                        <br><br>C'est ainsi qu'en 2021, fort de ses multiples projets, dont son entreprise, il a décidé de mettre ses compétences à profit en suivant une formation de "Développeur Web et Web Mobile". Cette formation a été couronnée de succès et il a pu l'aborder avec facilité.
+                        Je me considère comme un entrepreneur qui a toujours été porté par l'esprit d'entreprise depuis mon plus jeune âge. Grâce à cela, j'ai fondé ma propre entreprise en 2017. Cependant je suis avant tout un passionné d'informatique, voire même un fervent adepte du développement informatique.
                         <br><br>
-                        Depuis 2022, il poursuit son parcours au sein de son entreprise, Tyrolium, qui existe depuis six ans. Malgré son jeune âge, seulement dix-neuf ans, il trouve une grande satisfaction à consacrer ses journées entières à ce projet, s'investissant pleinement pour le rendre meilleur.
+                        C'est ainsi qu'en 2021, fort de mes multiples projets, dont mon entreprise, j'ai décidé de mettre mes compétences à profit en suivant une formation de "Développeur Web et Web Mobile". Cette formation a été couronnée de succès et j'ai pu l'aborder avec facilité.
                         <br><br>
-                        Plus récemment, en 2023, il a choisi de transmettre ses compétences et son expérience à travers des formations, dans le but de former une nouvelle génération de développeurs. Il est heureux de pouvoir partager cette passion et ce savoir-faire avec eux.
+                        Depuis 2022, je poursuis mon parcours au sein de mon entreprise, Tyrolium, qui existe depuis six ans. Malgré mon jeune âge, seulement dix-neuf ans, je trouve une grande satisfaction à consacrer mes journées entières à ce projet, m'investissant pleinement pour le rendre meilleur.
+                        <br><br>
+                        Plus récemment, en 2023, j'ai choisi de transmettre mes compétences et mon expérience à travers des formations, dans le but de former une nouvelle génération de développeurs. Je suis heureux de pouvoir partager cette passion et ce savoir-faire avec eux, et je tiens à exprimer ma gratitude envers Human Booster qui me donne l'opportunité de transmettre cette passion.
                     </p>
 
                     <div class="social">
@@ -95,7 +95,7 @@ head($page); ?>
                             <span class="BG containerThree"></span>
                         </a>
 
-                        <a class="Btn" href="#" target="_blank">
+                        <a class="Btn" href="tel:+33611112669" target="_blank">
                              <span class="svgContainer">
                                <i class="fa-brands fa-whatsapp"></i>
                              </span>
@@ -117,7 +117,7 @@ head($page); ?>
                             <span class="BG containerSix"></span>
                         </a>
 
-                        <a class="Btn" href="#" target="_blank">
+                        <a class="Btn" href="https://discord.gg/mtDx9ceS7n" target="_blank">
                              <span class="svgContainer">
                                <i class="fa-brands fa-discord"></i>
                              </span>
@@ -227,20 +227,21 @@ head($page); ?>
                             <article class="d-flex Art-other">
 
                                 <div class="left-auto">
-                                    <div class="img img-gen"></div>
+                                    <div class="img img-form"></div>
                                 </div>
                                 <div class="right">
-                                    <h3>Génération IUM</h3>
-                                    <p style="margin-bottom: unset"><small>Fondé en Juin 2022</small></p>
+                                    <h3>Formateur IT Indépendant</h3>
+                                    <p style="margin-bottom: unset"><small>Depuis Avril 2023</small></p>
                                     <hr style="
                             margin: 13px auto!important;
                             width: 60%!important;
                             border: solid white 1px!important;
                             opacity: 0.7!important;">
                                     <p class="projet-desc">
-                                        j'ai fondé cette organisation politique qui a pour but de défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.
+                                        J'interviens sur différents modules de développement web et web mobile et concepteur développeur d’applications
                                     </p>
                                 </div>
+
 
                             </article>
                             <hr>
@@ -251,13 +252,13 @@ head($page); ?>
                                 </div>
                                 <div class="right">
                                     <h3>DoubleT</h3>
-                                    <p style="margin-bottom: unset"><small>Créer le</small></p>
+                                    <p style="margin-bottom: unset"><small>Créer en Octobre 2022</small></p>
                                     <hr style="
                             margin: 13px auto!important;
                             width: 60%!important;
                             border: solid white 1px!important;
                             opacity: 0.7!important;">
-                                    <p class="projet-desc">J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu J'ai créer ce projet gneugneu </p>
+                                    <p class="projet-desc">DoubleT Creator est un projet d'animation d'avatar fictif afin de le faire vivre sur les réseaux sociaux. Grâce à des technologies d'animation 3D et de motion tracking </p>
                                 </div>
 
                             </article>
@@ -279,14 +280,14 @@ head($page); ?>
                                 </div>
                                 <div class="right">
                                     <h3>Maxime/Minecraft</h3>
-                                    <p style="margin-bottom: unset"><small>Fondé en Juin 2022</small></p>
+                                    <p style="margin-bottom: unset"><small>Fondé en Juillet 2016</small></p>
                                     <hr style="
                             margin: 13px auto!important;
                             width: 60%!important;
                             border: solid white 1px!important;
                             opacity: 0.7!important;">
                                     <p class="projet-desc">
-                                        j'ai fondé cette organisation politique qui a pour but de défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.
+                                        J'ai fondé Maxime/MINECRAFT afin de regrouper sous un seul label toutes mes créations sur le jeu vidéo Minecraft. Du développement de mods à la création d'une multitude de packs de textures, en passant par l'organisation d'événements communautaires.</p>
                                     </p>
                                 </div>
 
@@ -302,15 +303,14 @@ head($page); ?>
                                 </div>
                                 <div class="right">
                                     <h3>Maxime/Serveur</h3>
-                                    <p style="margin-bottom: unset"><small>Fondé en Juin 2022</small></p>
+                                    <p style="margin-bottom: unset"><small>Fondé en Septembre 2015</small></p>
                                     <hr style="
                             margin: 13px auto!important;
                             width: 60%!important;
                             border: solid white 1px!important;
                             opacity: 0.7!important;">
                                     <p class="projet-desc">
-                                        j'ai fondé cette organisation politique qui a pour but de défendre la nouvelle génération d'entrepreneur, de créateur de contenu, d'artiste et métiers d'internet.
-                                    </p>
+                                        J'ai fondé ce projet, dédiée à la gestion et à l'animation d'un serveur Discord comptant 1300 utilisateurs. Mon but était de rassembler les passionnés de jeux vidéo en proposant  des sondages, des événements, et des actualités.</p>
                                 </div>
 
                             </article>
@@ -413,6 +413,13 @@ head($page); ?>
                             height: 177px;
                             background-image: url("https://tyrolium.fr/Contenu/Image/Tyrolium Site.png");
                         }*/
+                        .img-form{
+                            border-radius: 33px;
+                            width: 200px;
+                            height: 200px;
+                            background-image: url("assets/forma.jpg");
+                            background-size: cover !important;
+                        }
                         .img-gen{
                             border-radius: 33px;
                             width: 200px;
@@ -454,7 +461,7 @@ head($page); ?>
 
 
         <!-- SERVICES -->
-        <section id="service">
+        <!--<section id="service">
             <div class="card">
                 <div class="bg">
                     <h2 class="titleCard">SERVICES</h2>
@@ -463,7 +470,7 @@ head($page); ?>
                     <div class="blob"></div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- /SERVICES -->
 
         <!-- MYSITE -->
@@ -475,7 +482,7 @@ head($page); ?>
             </style>
             <div class="card card-max" >
                 <div class="bg">
-                    <h2 class="titleCard">Mes sites web</h2>
+                    <h2 class="titleCard"><i class="fa-solid fa-globe"></i> Mes sites web</h2>
                     <hr>
                     <div id="mysiteGalery">
 
@@ -532,7 +539,7 @@ head($page); ?>
                                         Bâtir Positif
                                     </p>
                                     <p class="card__descr">
-                                        Site de l'entreprise Bâtir positif fait en..
+                                        Site de l'entreprise Bâtir positif fait en 2020
                                     </p>
                                     <div class="card__links">
                                         <div>
@@ -868,11 +875,11 @@ head($page); ?>
                                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                     <!-- Content -->
                                     <h6 class="text-uppercase fw-bold mb-4">
-                                        <i class="fas fa-gem me-3"></i>MAXIME TOURNIER
+                                        <i class="fas fa-gem me-3"></i>à Propos
                                     </h6>
                                     <p>
-                                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                        dolor sit amet, consectetur adipisicing elit.
+                                        Je me présente sous le nom de Maxime Tournier, âgé de vingt ans.
+                                        Je me considère comme un entrepreneur qui a toujours été porté par l'esprit d'entreprise depuis mon plus jeune âge.
                                     </p>
                                 </div>
                                 <!-- Grid column -->
@@ -884,19 +891,13 @@ head($page); ?>
                                         Pages
                                     </h6>
                                     <p>
-                                        <a href="#!" class="text-reset">A propos</a>
+                                        <a href="#about" class="text-reset">A propos</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Expériences</a>
+                                        <a href="#project" class="text-reset">Projet</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Compétences</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-reset">Histoire</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-reset">Services</a>
+                                        <a href="#mysite" class="text-reset">Mes sites</a>
                                     </p>
                                 </div>
                                 <!-- Grid column -->
@@ -905,12 +906,11 @@ head($page); ?>
                                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                     <!-- Links -->
                                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                                    <p><i class="fas fa-home me-3"></i> Décines-Chapieux</p>
                                     <p>
-                                        <i class="fas fa-envelope me-3"></i>
+                                        <i class="fas fa-envelope me-3"></i><br>
                                         maxime.tournier@tyrolium.fr
                                     </p>
-                                    <p><i class="fas fa-phone me-3"></i>06 11 11 26 69</p>
+                                    <p><i class="fas fa-phone me-3"></i><br>06 11 11 26 69</p>
                                 </div>
                                 <!-- Grid column -->
                             </div>
