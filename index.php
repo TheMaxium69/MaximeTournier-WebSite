@@ -490,23 +490,21 @@ head($page); ?>
                             <div class="card-site">
                                 <style>
                                     .card_tyrolium{
-                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173735211788423208/image.png?ex=65650919&is=65529419&hm=2b83ae0dc98854d4807b67d4ba888f6350a178b4cfa9b0baee727187cf3b4108&=&width=729&height=580");
-
+                                        background: url("https://tyrolium.fr/assets/site/tyrolium.png");
                                     }
-
                                     .card_bt{
-                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173734619040976966/image.png?ex=6565088c&is=6552938c&hm=454f01c0fc3d8e3daee1e5ac11887bc4040695f8c28fd60fd788cbc4dde00027&=&width=730&height=579");
-                                    }
+                                        background: url("https://tyrolium.fr/assets/site/batirpositif.png");
+                                        }
                                     .card_solidserv{
-                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173735598985593002/image.png?ex=65650975&is=65529475&hm=91a8ce0e8bc7daab13cb26b97effcae8f54ddc65c9f2ab10c42a1f2274ddcf0c&=&width=726&height=580");
+                                        background: url("https://tyrolium.fr/assets/site/solidserv.png");
                                     }
                                     .card_palais{
-                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173736532658630747/image.png?ex=65650a54&is=65529554&hm=89ddc2078d835cedfe028483ec2b734488164f59bbf07cb63ff3233e25850a22&=&width=784&height=580");
+                                        background: url("https://tyrolium.fr/assets/site/palaisdelasneaks.png");
                                     }
                                     .card_tyroserv{
-                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173737091998421075/image.png?ex=65650ad9&is=655295d9&hm=3cadf3355c9810bca8676cfff521c47914644961c232d67a4b9393d74c4d563c&=&width=786&height=580");
+                                        background: url("https://tyrolium.fr/assets/site/tyroserv.png");
                                     }.card_uptime{
-                                        background: url("https://media.discordapp.net/attachments/446049284694081546/1173740182265139290/image.png?ex=65650dba&is=655298ba&hm=d7c1db223bacc0b820c68ac027068fa803355344462037c8a0d21b62ed83245a&=&width=783&height=579");
+                                        background: url("https://tyrolium.fr/assets/site/tyrouptime.png");
                                     }
                                 </style>
                                 <div class="card__img card_tyrolium"></div>
@@ -1021,6 +1019,43 @@ head($page); ?>
                     ay = ($(window).innerHeight()/2- e.pageY)/200;
 
                 parallax_card.attr("style", " transform:perspective(500000px) rotateY("+ax+"deg) rotateX("+ay+"deg)")
+            });
+        });
+    </script>
+
+    <script>
+        const cursor = document.getElementById('cursor'); // Assurez-vous que vous avez un élément avec l'ID 'circle' dans votre HTML.
+        const cursor2 = document.getElementById('cursor2'); // Assurez-vous que vous avez un élément avec l'ID 'circle' dans votre HTML.
+        const cursor3 = document.getElementById('cursor3'); // Assurez-vous que vous avez un élément avec l'ID 'circle' dans votre HTML.
+        document.addEventListener('mousemove', (e) => {
+            const height = cursor.offsetHeight;
+            const width = cursor.offsetWidth;
+
+
+            setTimeout(() => {
+
+                cursor.style.left = `${e.pageX - width/2}px`
+                cursor2.style.left = `${e.pageX - width/2}px`
+                cursor3.style.left = `${e.pageX - width/2}px`
+                cursor.style.top = `${e.pageY - height/2}px`
+                cursor2.style.top = `${e.pageY - height/2}px`
+                cursor3.style.top = `${e.pageY - height/2}px`
+
+            }, 20);
+        });
+
+        const containers = document.querySelectorAll('.card');
+        containers.forEach(container => {
+            const follower = container.querySelector('.blob');
+
+            container.addEventListener('mousemove', (e) => {
+                const x = e.clientX - container.getBoundingClientRect().left - follower.clientWidth / 2;
+                const y = e.clientY - container.getBoundingClientRect().top - follower.clientHeight / 2;
+
+                follower.style.width = '500px'; // Réglez la largeur ici
+                follower.style.height = '500px'; // Réglez la hauteur ici
+                follower.style.left = x + 'px';
+                follower.style.top = y + 'px';
             });
         });
     </script>
